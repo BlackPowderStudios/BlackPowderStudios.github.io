@@ -1,5 +1,8 @@
 var searchData=
 [
-  ['removecomponent_0',['RemoveComponent',['../class_keg2_d_1_1_game_object.html#a18ede2f9c58d6931286240235666df7c',1,'Keg2D::GameObject']]],
-  ['render_1',['Render',['../class_keg2_d_1_1_component.html#a6b86ad123f0f83a1818a2d6ea8dc65ef',1,'Keg2D.Component.Render()'],['../class_keg2_d_1_1_components_1_1_comp___sprite_renderer.html#a5feb085ab7c2928e32d5052089f58cc9',1,'Keg2D.Components.Comp_SpriteRenderer.Render()'],['../class_keg2_d_1_1_game_object.html#aac106a2b5e4c60468965fc0841041b8e',1,'Keg2D.GameObject.Render()']]]
+  ['init_0',['Init',['../class_keg2_d_1_1_entry_point.html#a589e0317a3ac0a163b502bff4c53b9b4',1,'Keg2D.EntryPoint.Init()'],['../class_keg2_d_1_1_utils_1_1_steam_helper.html#aee300639a5cd38e74f0476c0a72ebc17',1,'Keg2D.Utils.SteamHelper.Init()']]],
+  ['initialize_1',['Initialize',['../class_keg2_d_1_1_entry_point.html#af63e33d8fd5cb61cf6bce26816d2abbb',1,'Keg2D::EntryPoint']]],
+  ['instantiate_3c_20t_20_3e_2',['Instantiate&lt; T &gt;',['../class_keg2_d_1_1_scene_management_1_1_scene.html#a7dacc74868528d0f336df8c76a913d5c',1,'Keg2D::SceneManagement::Scene']]],
+  ['iskeydown_3',['IsKeyDown',['../class_keg2_d_1_1_input.html#a9b150c6276b90d1a728212a1da9eadb8',1,'Keg2D::Input']]],
+  ['iskeyup_4',['IsKeyUp',['../class_keg2_d_1_1_input.html#a88ee3f1607376796fddddb0b74db29cb',1,'Keg2D::Input']]]
 ];

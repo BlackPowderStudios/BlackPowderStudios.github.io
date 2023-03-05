@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['layer_0',['layer',['../class_keg2_d_1_1_components_1_1_comp___sprite_renderer.html#a0ef391aeecbcfd49592444dc3f3c8682',1,'Keg2D::Components::Comp_SpriteRenderer']]]
+  ['font_0',['font',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_label.html#a4bf6ffdd06b9fd7ebce9cadb256e0ffe',1,'Keg2D::Graphics::UI::UILabel']]],
+  ['fontsize_1',['fontSize',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_label.html#a5ddec3a32b13549c8d5231b03177ddbd',1,'Keg2D::Graphics::UI::UILabel']]]
 ];

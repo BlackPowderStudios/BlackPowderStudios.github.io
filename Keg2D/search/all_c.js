@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['origin_0',['Origin',['../class_keg2_d_1_1_graphics_1_1_sprite.html#ade52da52d97a011872c232910f9ed893',1,'Keg2D::Graphics::Sprite']]]
+  ['mathhelper_0',['MathHelper',['../class_keg2_d_1_1_utils_1_1_math_helper.html',1,'Keg2D::Utils']]],
+  ['mathhelper_2ecs_1',['MathHelper.cs',['../_math_helper_8cs.html',1,'']]]
 ];

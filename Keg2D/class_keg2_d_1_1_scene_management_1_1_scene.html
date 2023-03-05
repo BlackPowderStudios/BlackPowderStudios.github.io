@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Key2D: Keg2D.SceneManagement.Scene Class Reference</title>
+<title>Keg2D: Keg2D.SceneManagement.Scene Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -25,8 +25,9 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Key2D<span id="projectnumber">&#160;0.0.2</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
    </div>
+   <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
  </tr>
  </tbody>
@@ -89,14 +90,412 @@ $(document).ready(function(){initNavTree('class_keg2_d_1_1_scene_management_1_1_
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="class_keg2_d_1_1_scene_management_1_1_scene-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Keg2D.SceneManagement.Scene Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>A representation of in-game world space.  
+ <a href="class_keg2_d_1_1_scene_management_1_1_scene.html#details">More...</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a7dacc74868528d0f336df8c76a913d5c"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a7dacc74868528d0f336df8c76a913d5c">Instantiate&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a7dacc74868528d0f336df8c76a913d5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a GameObject <em>(of type T)</em> to the Scene.  <br /></td></tr>
+<tr class="separator:a7dacc74868528d0f336df8c76a913d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb1d1540cab670355d7e0af096fba6d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#acb1d1540cab670355d7e0af096fba6d4">GetGameObject</a> (Guid UUID)</td></tr>
+<tr class="memdesc:acb1d1540cab670355d7e0af096fba6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the GameObject within the Scene with the GameObject.UUID specified.  <br /></td></tr>
+<tr class="separator:acb1d1540cab670355d7e0af096fba6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7069f1614205baff40c95bf2d76a93e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a7069f1614205baff40c95bf2d76a93e8">GetComponent&lt; T &gt;</a> ()</td></tr>
+<tr class="memdesc:a7069f1614205baff40c95bf2d76a93e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the first GameObject of type T.  <br /></td></tr>
+<tr class="separator:a7069f1614205baff40c95bf2d76a93e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefb30076090842fd69112c1b7c399008"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#aefb30076090842fd69112c1b7c399008">RemoveGameObject</a> (Guid UUID)</td></tr>
+<tr class="memdesc:aefb30076090842fd69112c1b7c399008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a GameObject from the Scene.  <br /></td></tr>
+<tr class="separator:aefb30076090842fd69112c1b7c399008"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1127784393ef10e0911abbb1673b2642"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a1127784393ef10e0911abbb1673b2642">AddUI</a> (string key, <a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html">UIBase</a> ui)</td></tr>
+<tr class="memdesc:a1127784393ef10e0911abbb1673b2642"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a new UIBase with the key of <em>key</em> .  <br /></td></tr>
+<tr class="separator:a1127784393ef10e0911abbb1673b2642"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc06802268cc56eec5186fc6e4f15f30"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html">UIBase</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#acc06802268cc56eec5186fc6e4f15f30">GetUI</a> (string key)</td></tr>
+<tr class="memdesc:acc06802268cc56eec5186fc6e4f15f30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns either null or the UIBase with the specified <em>key</em> .  <br /></td></tr>
+<tr class="separator:acc06802268cc56eec5186fc6e4f15f30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca17b48123eb76268509e546878e0297"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#aca17b48123eb76268509e546878e0297">RemoveUI</a> (string key)</td></tr>
+<tr class="memdesc:aca17b48123eb76268509e546878e0297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the UIBase with the specified <em>key</em> .  <br /></td></tr>
+<tr class="separator:aca17b48123eb76268509e546878e0297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2f0957ff08ec74b71ef2bbe7f01c2d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#aac2f0957ff08ec74b71ef2bbe7f01c2d">Tick</a> (GameTime gameTime)</td></tr>
+<tr class="memdesc:aac2f0957ff08ec74b71ef2bbe7f01c2d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every update <em>(Around 60 times a second)</em>.  <br /></td></tr>
+<tr class="separator:aac2f0957ff08ec74b71ef2bbe7f01c2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78b3e1f844cb26108a86592938d72080"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a78b3e1f844cb26108a86592938d72080">Render</a> (GameTime gameTime)</td></tr>
+<tr class="memdesc:a78b3e1f844cb26108a86592938d72080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame <em>(Around 60 times a second)</em>.  <br /></td></tr>
+<tr class="separator:a78b3e1f844cb26108a86592938d72080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca192229763de6f62d85978fffae606"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a1ca192229763de6f62d85978fffae606">RenderUI</a> (GameTime gameTime)</td></tr>
+<tr class="memdesc:a1ca192229763de6f62d85978fffae606"><td class="mdescLeft">&#160;</td><td class="mdescRight">Renders every UIBase that has a <a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html#a6a9b2febccc2c33be47e0bfa1b3d91be" title="Is this element enabled?">UIBase.enabled</a> set to true.  <br /></td></tr>
+<tr class="separator:a1ca192229763de6f62d85978fffae606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a24f0dadf5ddcbf10d1dda434f2617130"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_level.html">Level</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a24f0dadf5ddcbf10d1dda434f2617130">level</a></td></tr>
+<tr class="memdesc:a24f0dadf5ddcbf10d1dda434f2617130"><td class="mdescLeft">&#160;</td><td class="mdescRight">[NOT CURRENTLY IN USE]  <br /></td></tr>
+<tr class="separator:a24f0dadf5ddcbf10d1dda434f2617130"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28dd26c11caa31bfdb78e73941d9b127"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a28dd26c11caa31bfdb78e73941d9b127">colliders</a> = new List&lt;<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&gt;()</td></tr>
+<tr class="memdesc:a28dd26c11caa31bfdb78e73941d9b127"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of every Collider within the Scene.  <br /></td></tr>
+<tr class="separator:a28dd26c11caa31bfdb78e73941d9b127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00008">8</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>D:/Projects/Keg2D/Keg2D/SceneManagement/<a class="el" href="_scene_8cs_source.html">Scene.cs</a></li>
+<div class="textblock"><p>A representation of in-game world space. </p>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00012">12</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a1127784393ef10e0911abbb1673b2642" name="a1127784393ef10e0911abbb1673b2642"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1127784393ef10e0911abbb1673b2642">&#9670;&#160;</a></span>AddUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.AddUI </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html">UIBase</a>&#160;</td>
+          <td class="paramname"><em>ui</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a new UIBase with the key of <em>key</em> . </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key for the UIBase.</td></tr>
+    <tr><td class="paramname">ui</td><td>The UIBase to add.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00092">92</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="a7069f1614205baff40c95bf2d76a93e8" name="a7069f1614205baff40c95bf2d76a93e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7069f1614205baff40c95bf2d76a93e8">&#9670;&#160;</a></span>GetComponent&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a> Keg2D.SceneManagement.Scene.GetComponent&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the first GameObject of type T. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The GameObject type to get.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Either the GameObject or <b>null</b>.</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GameObject</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00067">67</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="acb1d1540cab670355d7e0af096fba6d4" name="acb1d1540cab670355d7e0af096fba6d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1d1540cab670355d7e0af096fba6d4">&#9670;&#160;</a></span>GetGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a> Keg2D.SceneManagement.Scene.GetGameObject </td>
+          <td>(</td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>UUID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets the GameObject within the Scene with the GameObject.UUID specified. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">UUID</td><td>The GameObject.UUID</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Either the GameObject or <b>null</b>.</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00056">56</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="acc06802268cc56eec5186fc6e4f15f30" name="acc06802268cc56eec5186fc6e4f15f30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc06802268cc56eec5186fc6e4f15f30">&#9670;&#160;</a></span>GetUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html">UIBase</a> Keg2D.SceneManagement.Scene.GetUI </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns either null or the UIBase with the specified <em>key</em> . </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key for the UIBase.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Either null or the UIBase with the specified <em>key</em> .</dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00103">103</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="a7dacc74868528d0f336df8c76a913d5c" name="a7dacc74868528d0f336df8c76a913d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dacc74868528d0f336df8c76a913d5c">&#9670;&#160;</a></span>Instantiate&lt; T &gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Guid Keg2D.SceneManagement.Scene.Instantiate&lt; T &gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Adds a GameObject <em>(of type T)</em> to the Scene. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The GameObject to add.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The <b>UUID</b> (<b><u>U</u></b>niversal <b><u>U</u></b>nique <b><u>ID</u></b>entifier) of the GameObject.</dd></dl>
+<div class="typeconstraint">
+<dl><dt><b>Type Constraints</b></dt><dd>
+<table border="0" cellspacing="2" cellpadding="0">
+<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GameObject</em></td><td>&#160;</td></tr>
+</table>
+</dd>
+</dl>
+</div>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00039">39</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="aefb30076090842fd69112c1b7c399008" name="aefb30076090842fd69112c1b7c399008"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb30076090842fd69112c1b7c399008">&#9670;&#160;</a></span>RemoveGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.RemoveGameObject </td>
+          <td>(</td>
+          <td class="paramtype">Guid&#160;</td>
+          <td class="paramname"><em>UUID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a GameObject from the Scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">UUID</td><td>The <b>UUID</b> (<b><u>U</u></b>niversal <b><u>U</u></b>nique <b><u>ID</u></b>entifier) of the GameObject.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00081">81</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="aca17b48123eb76268509e546878e0297" name="aca17b48123eb76268509e546878e0297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca17b48123eb76268509e546878e0297">&#9670;&#160;</a></span>RemoveUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.RemoveUI </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the UIBase with the specified <em>key</em> . </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key for the UIBase.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00115">115</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="a78b3e1f844cb26108a86592938d72080" name="a78b3e1f844cb26108a86592938d72080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78b3e1f844cb26108a86592938d72080">&#9670;&#160;</a></span>Render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.Render </td>
+          <td>(</td>
+          <td class="paramtype">GameTime&#160;</td>
+          <td class="paramname"><em>gameTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called every frame <em>(Around 60 times a second)</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameTime</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00139">139</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="a1ca192229763de6f62d85978fffae606" name="a1ca192229763de6f62d85978fffae606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca192229763de6f62d85978fffae606">&#9670;&#160;</a></span>RenderUI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.RenderUI </td>
+          <td>(</td>
+          <td class="paramtype">GameTime&#160;</td>
+          <td class="paramname"><em>gameTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Renders every UIBase that has a <a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html#a6a9b2febccc2c33be47e0bfa1b3d91be" title="Is this element enabled?">UIBase.enabled</a> set to true. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameTime</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00149">149</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="aac2f0957ff08ec74b71ef2bbe7f01c2d" name="aac2f0957ff08ec74b71ef2bbe7f01c2d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2f0957ff08ec74b71ef2bbe7f01c2d">&#9670;&#160;</a></span>Tick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.Tick </td>
+          <td>(</td>
+          <td class="paramtype">GameTime&#160;</td>
+          <td class="paramname"><em>gameTime</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called every update <em>(Around 60 times a second)</em>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameTime</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00125">125</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a28dd26c11caa31bfdb78e73941d9b127" name="a28dd26c11caa31bfdb78e73941d9b127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28dd26c11caa31bfdb78e73941d9b127">&#9670;&#160;</a></span>colliders</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&gt; Keg2D.SceneManagement.Scene.colliders = new List&lt;<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&gt;()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The list of every Collider within the Scene. </p>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00032">32</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<a id="a24f0dadf5ddcbf10d1dda434f2617130" name="a24f0dadf5ddcbf10d1dda434f2617130"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24f0dadf5ddcbf10d1dda434f2617130">&#9670;&#160;</a></span>level</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_level.html">Level</a> Keg2D.SceneManagement.Scene.level</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>[NOT CURRENTLY IN USE] </p>
+
+<p class="definition">Definition at line <a class="el" href="_scene_8cs_source.html#l00027">27</a> of file <a class="el" href="_scene_8cs_source.html">Scene.cs</a>.</p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li>C:/Users/user/OneDrive/Documents/Black Powder Studios/Projects/Sandbox/Keg2D/Keg2D/SceneManagement/<a class="el" href="_scene_8cs_source.html">Scene.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

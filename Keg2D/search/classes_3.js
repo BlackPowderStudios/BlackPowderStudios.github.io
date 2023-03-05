@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gameobject_0',['GameObject',['../class_keg2_d_1_1_game_object.html',1,'Keg2D']]]
+  ['debug_0',['Debug',['../class_keg2_d_1_1_utils_1_1_debug.html',1,'Keg2D::Utils']]]
 ];

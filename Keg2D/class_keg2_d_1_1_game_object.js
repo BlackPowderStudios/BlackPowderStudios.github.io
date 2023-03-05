@@ -8,6 +8,7 @@ var class_keg2_d_1_1_game_object =
     [ "Render", "class_keg2_d_1_1_game_object.html#aac106a2b5e4c60468965fc0841041b8e", null ],
     [ "Start", "class_keg2_d_1_1_game_object.html#ae4eb32264ac3538b40f125ebb5fb1004", null ],
     [ "Tick", "class_keg2_d_1_1_game_object.html#ac4003d28bdc5c3dc7ea71fc3959951b9", null ],
+    [ "enabled", "class_keg2_d_1_1_game_object.html#a763dd182d38dd5a44714978c55f108cb", null ],
     [ "transform", "class_keg2_d_1_1_game_object.html#a28c6f36d95a099c32cc1e7e3d64ab841", null ],
     [ "UUID", "class_keg2_d_1_1_game_object.html#a51bca81c263372c42348fcb67a48cd44", null ]
 ];

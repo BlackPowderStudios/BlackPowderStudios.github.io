@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['debug_2ecs_0',['Debug.cs',['../_debug_8cs.html',1,'']]]
+  ['boxcollider2d_2ecs_0',['BoxCollider2D.cs',['../_box_collider2_d_8cs.html',1,'']]]
 ];

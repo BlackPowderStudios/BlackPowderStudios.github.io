@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['height_0',['Height',['../class_keg2_d_1_1_graphics_1_1_sprite.html#a74dedcc4a9e037b35b3f85929b537e0f',1,'Keg2D::Graphics::Sprite']]]
+  ['frame_0',['Frame',['../class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#a3f003278dabc815f32f689e0da26db87',1,'Keg2D::Components::AnimatedSpriteRenderer']]]
 ];

@@ -1,6 +1,7 @@
 var class_keg2_d_1_1_graphics_1_1_sprite =
 [
     [ "Sprite", "class_keg2_d_1_1_graphics_1_1_sprite.html#adfca6201572698a3a9000135a70d816d", null ],
+    [ "Dispose", "class_keg2_d_1_1_graphics_1_1_sprite.html#a4885fe7a8a5f60d48ecbb4e63dba6421", null ],
     [ "Origin", "class_keg2_d_1_1_graphics_1_1_sprite.html#ade52da52d97a011872c232910f9ed893", null ],
     [ "Height", "class_keg2_d_1_1_graphics_1_1_sprite.html#a74dedcc4a9e037b35b3f85929b537e0f", null ],
     [ "Sheet", "class_keg2_d_1_1_graphics_1_1_sprite.html#a5e2589ef27b4ada17875d8556404ad60", null ],

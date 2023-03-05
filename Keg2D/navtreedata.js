@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Key2D", "index.html", [
+  [ "Keg2D", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Package List", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -33,21 +33,26 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
+        [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", null ],
         [ "Variables", "functions_vars.html", null ],
         [ "Properties", "functions_prop.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html"
+"_animated_sprite_8cs.html",
+"class_keg2_d_1_1_graphics_1_1_sprite.html#a4885fe7a8a5f60d48ecbb4e63dba6421",
+"dir_418a15747116a1608b6c0e59a812877a.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
