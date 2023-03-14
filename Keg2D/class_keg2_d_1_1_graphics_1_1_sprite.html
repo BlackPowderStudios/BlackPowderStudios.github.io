@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -51,23 +47,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_keg2_d_1_1_graphics_1_1_sprite.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -89,6 +68,11 @@ $(document).ready(function(){initNavTree('class_keg2_d_1_1_graphics_1_1_sprite.h
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html">Sprite</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -150,8 +134,6 @@ Properties</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Contains the data of a Sprite. </p>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00009">9</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="adfca6201572698a3a9000135a70d816d" name="adfca6201572698a3a9000135a70d816d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adfca6201572698a3a9000135a70d816d">&#9670;&#160;</a></span>Sprite()</h2>
@@ -209,8 +191,6 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00055">55</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -231,8 +211,6 @@ Properties</h2></td></tr>
 
 <p>Implements <a class="el" href="interface_keg2_d_1_1_utils_1_1_asset.html#a59f7aaa479312a4f51365515df67536c">Keg2D.Utils.Asset</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00063">63</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -249,8 +227,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The origin of the Sprite. </p>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00039">39</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
 
 </div>
 </div>
@@ -277,8 +253,6 @@ Properties</h2></td></tr>
 
 <p>The height of the Sprite. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00029">29</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
-
 </div>
 </div>
 <a id="a5e2589ef27b4ada17875d8556404ad60" name="a5e2589ef27b4ada17875d8556404ad60"></a>
@@ -302,8 +276,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The SpriteSheet containing the Sprite. </p>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00034">34</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
 
 </div>
 </div>
@@ -329,8 +301,6 @@ Properties</h2></td></tr>
 
 <p>The Rectangle of the Sprite within the SpriteSheet. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00044">44</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
-
 </div>
 </div>
 <a id="afcca82e28edfef509fb3be6ad0340578" name="afcca82e28edfef509fb3be6ad0340578"></a>
@@ -354,8 +324,6 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The width of the Sprite. </p>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00024">24</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
 
 </div>
 </div>
@@ -381,8 +349,6 @@ Properties</h2></td></tr>
 
 <p>The X position of the Sprite within the SpriteSheet. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00014">14</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
-
 </div>
 </div>
 <a id="ac6c9efe47f2e8683d37f6c9179ecc8ad" name="ac6c9efe47f2e8683d37f6c9179ecc8ad"></a>
@@ -407,21 +373,15 @@ Properties</h2></td></tr>
 
 <p>The Y position of the Sprite within the SpriteSheet. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_8cs_source.html#l00019">19</a> of file <a class="el" href="_sprite_8cs_source.html">Sprite.cs</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/user/OneDrive/Documents/Black Powder Studios/Projects/Sandbox/Keg2D/Keg2D/Graphics/<a class="el" href="_sprite_8cs_source.html">Sprite.cs</a></li>
+<li>D:/Projects/Sandbox/Keg2D/Keg2D/Graphics/Sprite.cs</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html">Sprite</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

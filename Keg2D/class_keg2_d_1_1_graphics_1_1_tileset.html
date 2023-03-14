@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -51,23 +47,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_keg2_d_1_1_graphics_1_1_tileset.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -89,15 +68,21 @@ $(document).ready(function(){initNavTree('class_keg2_d_1_1_graphics_1_1_tileset.
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html">Tileset</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="class_keg2_d_1_1_graphics_1_1_tileset-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Keg2D.Graphics.Tileset Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>[NOT CURRENTLY IN USE]  
+<p>Contains a sheet of Tiles.  
  <a href="class_keg2_d_1_1_graphics_1_1_tileset.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Keg2D.Graphics.Tileset:</div>
@@ -111,16 +96,102 @@ Inheritance diagram for Keg2D.Graphics.Tileset:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:aad6ce1fb3b315de189e4047411026d9b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#aad6ce1fb3b315de189e4047411026d9b">Tileset</a> (string name)</td></tr>
+<tr class="memdesc:aad6ce1fb3b315de189e4047411026d9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Tileset.  <br /></td></tr>
+<tr class="separator:aad6ce1fb3b315de189e4047411026d9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad156d1f9e28a2a8cb9744a2a401e4d43"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#ad156d1f9e28a2a8cb9744a2a401e4d43">Tileset</a> (string name, Texture2D rawTexture)</td></tr>
+<tr class="memdesc:ad156d1f9e28a2a8cb9744a2a401e4d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Tileset using a Texture2D.  <br /></td></tr>
+<tr class="separator:ad156d1f9e28a2a8cb9744a2a401e4d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4d0153f8f53efb6daa907288b4a813d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tile.html">Tile</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#af4d0153f8f53efb6daa907288b4a813d">Split</a> (int tileSize)</td></tr>
+<tr class="memdesc:af4d0153f8f53efb6daa907288b4a813d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Splits up the Tileset.  <br /></td></tr>
+<tr class="separator:af4d0153f8f53efb6daa907288b4a813d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ce35776b827a25dfa99d78f1f279a5e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#a0ce35776b827a25dfa99d78f1f279a5e">Dispose</a> ()</td></tr>
 <tr class="separator:a0ce35776b827a25dfa99d78f1f279a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59f7aaa479312a4f51365515df67536c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_keg2_d_1_1_utils_1_1_asset.html#a59f7aaa479312a4f51365515df67536c">Dispose</a> ()</td></tr>
 <tr class="separator:a59f7aaa479312a4f51365515df67536c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a18667267b55762e9cf212b9d30259530"><td class="memItemLeft" align="right" valign="top">readonly Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#a18667267b55762e9cf212b9d30259530">RawTexture</a></td></tr>
+<tr class="memdesc:a18667267b55762e9cf212b9d30259530"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Texture2D that contains the raw image data.  <br /></td></tr>
+<tr class="separator:a18667267b55762e9cf212b9d30259530"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28c648af030afbfbdf2d0b487ac36b8"><td class="memItemLeft" align="right" valign="top">readonly string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#ad28c648af030afbfbdf2d0b487ac36b8">Name</a></td></tr>
+<tr class="memdesc:ad28c648af030afbfbdf2d0b487ac36b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The name of the Tileset.  <br /></td></tr>
+<tr class="separator:ad28c648af030afbfbdf2d0b487ac36b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae30481d04f4889dda925e83ddd1eba07"><td class="memItemLeft" align="right" valign="top">readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#ae30481d04f4889dda925e83ddd1eba07">Width</a></td></tr>
+<tr class="memdesc:ae30481d04f4889dda925e83ddd1eba07"><td class="mdescLeft">&#160;</td><td class="mdescRight">The width of the Tileset.  <br /></td></tr>
+<tr class="separator:ae30481d04f4889dda925e83ddd1eba07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab580422c874e40997c77abdb4c9c562"><td class="memItemLeft" align="right" valign="top">readonly int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#aab580422c874e40997c77abdb4c9c562">Height</a></td></tr>
+<tr class="memdesc:aab580422c874e40997c77abdb4c9c562"><td class="mdescLeft">&#160;</td><td class="mdescRight">The height of the Tileset.  <br /></td></tr>
+<tr class="separator:aab580422c874e40997c77abdb4c9c562"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>[NOT CURRENTLY IN USE] </p>
+<div class="textblock"><p>Contains a sheet of Tiles. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aad6ce1fb3b315de189e4047411026d9b" name="aad6ce1fb3b315de189e4047411026d9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6ce1fb3b315de189e4047411026d9b">&#9670;&#160;</a></span>Tileset() <span class="overload">[1/2]</span></h2>
 
-<p class="definition">Definition at line <a class="el" href="_tileset_8cs_source.html#l00013">13</a> of file <a class="el" href="_tileset_8cs_source.html">Tileset.cs</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Keg2D.Graphics.Tileset.Tileset </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new Tileset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name / path of the Tileset.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad156d1f9e28a2a8cb9744a2a401e4d43" name="ad156d1f9e28a2a8cb9744a2a401e4d43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad156d1f9e28a2a8cb9744a2a401e4d43">&#9670;&#160;</a></span>Tileset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Keg2D.Graphics.Tileset.Tileset </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Texture2D&#160;</td>
+          <td class="paramname"><em>rawTexture</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a new Tileset using a Texture2D. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the Tileset.</td></tr>
+    <tr><td class="paramname">rawTexture</td><td>The Texture2D that contains the raw image data.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a0ce35776b827a25dfa99d78f1f279a5e" name="a0ce35776b827a25dfa99d78f1f279a5e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0ce35776b827a25dfa99d78f1f279a5e">&#9670;&#160;</a></span>Dispose()</h2>
 
@@ -138,21 +209,107 @@ Public Member Functions</h2></td></tr>
 
 <p>Implements <a class="el" href="interface_keg2_d_1_1_utils_1_1_asset.html#a59f7aaa479312a4f51365515df67536c">Keg2D.Utils.Asset</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_tileset_8cs_source.html#l00015">15</a> of file <a class="el" href="_tileset_8cs_source.html">Tileset.cs</a>.</p>
+</div>
+</div>
+<a id="af4d0153f8f53efb6daa907288b4a813d" name="af4d0153f8f53efb6daa907288b4a813d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4d0153f8f53efb6daa907288b4a813d">&#9670;&#160;</a></span>Split()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tile.html">Tile</a>[] Keg2D.Graphics.Tileset.Split </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>tileSize</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Splits up the Tileset. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tileSize</td><td>The size of every Tile.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Every Tile within the Tileset.</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aab580422c874e40997c77abdb4c9c562" name="aab580422c874e40997c77abdb4c9c562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab580422c874e40997c77abdb4c9c562">&#9670;&#160;</a></span>Height</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int Keg2D.Graphics.Tileset.Height</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The height of the Tileset. </p>
+
+</div>
+</div>
+<a id="ad28c648af030afbfbdf2d0b487ac36b8" name="ad28c648af030afbfbdf2d0b487ac36b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28c648af030afbfbdf2d0b487ac36b8">&#9670;&#160;</a></span>Name</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string Keg2D.Graphics.Tileset.Name</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The name of the Tileset. </p>
+
+</div>
+</div>
+<a id="a18667267b55762e9cf212b9d30259530" name="a18667267b55762e9cf212b9d30259530"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18667267b55762e9cf212b9d30259530">&#9670;&#160;</a></span>RawTexture</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Texture2D Keg2D.Graphics.Tileset.RawTexture</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The Texture2D that contains the raw image data. </p>
+
+</div>
+</div>
+<a id="ae30481d04f4889dda925e83ddd1eba07" name="ae30481d04f4889dda925e83ddd1eba07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae30481d04f4889dda925e83ddd1eba07">&#9670;&#160;</a></span>Width</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly int Keg2D.Graphics.Tileset.Width</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The width of the Tileset. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/user/OneDrive/Documents/Black Powder Studios/Projects/Sandbox/Keg2D/Keg2D/Graphics/<a class="el" href="_tileset_8cs_source.html">Tileset.cs</a></li>
+<li>D:/Projects/Sandbox/Keg2D/Keg2D/Graphics/Tileset.cs</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_graphics.html">Graphics</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html">Tileset</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

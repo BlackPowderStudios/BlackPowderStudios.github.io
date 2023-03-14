@@ -25,7 +25,10 @@
 var menudata={children:[
 {text:"Main Page",url:"index.html"},
 {text:"Packages",url:"namespaces.html",children:[
-{text:"Package List",url:"namespaces.html"}]},
+{text:"Package List",url:"namespaces.html"},
+{text:"Package Members",url:"namespacemembers.html",children:[
+{text:"All",url:"namespacemembers.html"},
+{text:"Enumerations",url:"namespacemembers_enum.html"}]}]},
 {text:"Classes",url:"annotated.html",children:[
 {text:"Class List",url:"annotated.html"},
 {text:"Class Index",url:"classes.html"},
@@ -94,13 +97,12 @@ var menudata={children:[
 {text:"f",url:"functions_prop.html#index_f"},
 {text:"g",url:"functions_prop.html#index_g"},
 {text:"h",url:"functions_prop.html#index_h"},
+{text:"i",url:"functions_prop.html#index_i"},
+{text:"l",url:"functions_prop.html#index_l"},
 {text:"p",url:"functions_prop.html#index_p"},
+{text:"r",url:"functions_prop.html#index_r"},
 {text:"s",url:"functions_prop.html#index_s"},
 {text:"t",url:"functions_prop.html#index_t"},
 {text:"w",url:"functions_prop.html#index_w"},
 {text:"x",url:"functions_prop.html#index_x"},
-{text:"y",url:"functions_prop.html#index_y"}]}]}]},
-{text:"Files",url:"files.html",children:[
-{text:"File List",url:"files.html"},
-{text:"File Members",url:"globals.html",children:[
-{text:"All",url:"globals.html"}]}]}]}
+{text:"y",url:"functions_prop.html#index_y"}]}]}]}]}

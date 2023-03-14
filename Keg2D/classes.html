@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -52,22 +48,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('classes.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -93,7 +73,7 @@ $(document).ready(function(){initNavTree('classes.html',''); initResizable(); })
   <div class="headertitle"><div class="title">Class Index</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="qindex"><a class="qindex" href="#letter_A">A</a>&#160;|&#160;<a class="qindex" href="#letter_B">B</a>&#160;|&#160;<a class="qindex" href="#letter_C">C</a>&#160;|&#160;<a class="qindex" href="#letter_D">D</a>&#160;|&#160;<a class="qindex" href="#letter_E">E</a>&#160;|&#160;<a class="qindex" href="#letter_G">G</a>&#160;|&#160;<a class="qindex" href="#letter_H">H</a>&#160;|&#160;<a class="qindex" href="#letter_I">I</a>&#160;|&#160;<a class="qindex" href="#letter_K">K</a>&#160;|&#160;<a class="qindex" href="#letter_L">L</a>&#160;|&#160;<a class="qindex" href="#letter_M">M</a>&#160;|&#160;<a class="qindex" href="#letter_S">S</a>&#160;|&#160;<a class="qindex" href="#letter_T">T</a>&#160;|&#160;<a class="qindex" href="#letter_U">U</a>&#160;|&#160;<a class="qindex" href="#letter_W">W</a></div>
+<div class="qindex"><a class="qindex" href="#letter_A">A</a>&#160;|&#160;<a class="qindex" href="#letter_B">B</a>&#160;|&#160;<a class="qindex" href="#letter_C">C</a>&#160;|&#160;<a class="qindex" href="#letter_D">D</a>&#160;|&#160;<a class="qindex" href="#letter_E">E</a>&#160;|&#160;<a class="qindex" href="#letter_G">G</a>&#160;|&#160;<a class="qindex" href="#letter_H">H</a>&#160;|&#160;<a class="qindex" href="#letter_I">I</a>&#160;|&#160;<a class="qindex" href="#letter_K">K</a>&#160;|&#160;<a class="qindex" href="#letter_L">L</a>&#160;|&#160;<a class="qindex" href="#letter_M">M</a>&#160;|&#160;<a class="qindex" href="#letter_S">S</a>&#160;|&#160;<a class="qindex" href="#letter_T">T</a>&#160;|&#160;<a class="qindex" href="#letter_U">U</a></div>
 <div class="classindex">
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_A" name="letter_A">A</a></dt>
@@ -124,7 +104,7 @@ $(document).ready(function(){initNavTree('classes.html',''); initResizable(); })
 <dd><a class="el" href="class_keg2_d_1_1_key_binding.html">KeyBinding</a> (<a class="el" href="namespace_keg2_d.html">Keg2D</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a id="letter_L" name="letter_L">L</a></dt>
-<dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_level.html">Level</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd></dl>
+<dd><a class="el" href="interface_keg2_d_1_1_scene_management_1_1_level.html">Level</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_localization.html">Localization</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_M" name="letter_M">M</a></dt>
 <dd><a class="el" href="class_keg2_d_1_1_utils_1_1_math_helper.html">MathHelper</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd></dl>
@@ -133,21 +113,15 @@ $(document).ready(function(){initNavTree('classes.html',''); initResizable(); })
 <dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html">Scene</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene_manager.html">SceneManager</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_serializable_data.html">SerializableData</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_serialization.html">Serialization</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_audio_1_1_sound_category.html">SoundCategory</a> (<a class="el" href="namespace_keg2_d_1_1_audio.html">Keg2D.Audio</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html">Sprite</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html">SpriteRenderer</a> (<a class="el" href="namespace_keg2_d_1_1_components.html">Keg2D.Components</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite_sheet.html">SpriteSheet</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html">SteamHelper</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_string_helper.html">StringHelper</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd></dl>
 <dl class="classindex even">
 <dt class="alphachar"><a id="letter_T" name="letter_T">T</a></dt>
-<dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_tile.html">Tile</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_tile_collider.html">TileCollider</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html">Tileset</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_timer.html">Timer</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_timer_handler.html">TimerHandler</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_transform.html">Transform</a> (<a class="el" href="namespace_keg2_d.html">Keg2D</a>)</dd></dl>
+<dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_tile.html">Tile</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_tile_collider.html">TileCollider</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_tiled_level.html">TiledLevel</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_scene_management_1_1_tilemap.html">Tilemap</a> (<a class="el" href="namespace_keg2_d_1_1_scene_management.html">Keg2D.SceneManagement</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html">Tileset</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_timer.html">Timer</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_timer_handler.html">TimerHandler</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_transform.html">Transform</a> (<a class="el" href="namespace_keg2_d.html">Keg2D</a>)</dd></dl>
 <dl class="classindex odd">
 <dt class="alphachar"><a id="letter_U" name="letter_U">U</a></dt>
-<dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html">UIBase</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_font.html">UIFont</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_interactable.html">UIInteractable</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_label.html">UILabel</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_rect.html">UIRect</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_rect_button.html">UIRectButton</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite.html">UISprite</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite_button.html">UISpriteButton</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_utils.html">Utils</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd></dl>
-<dl class="classindex even">
-<dt class="alphachar"><a id="letter_W" name="letter_W">W</a></dt>
-<dd><a class="el" href="interface_keg2_d_1_1_graphics_1_1_world_tile.html">WorldTile</a> (<a class="el" href="namespace_keg2_d_1_1_graphics.html">Keg2D.Graphics</a>)</dd></dl>
+<dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_base.html">UIBase</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html">UICheckBox</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_font.html">UIFont</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_interactable.html">UIInteractable</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_label.html">UILabel</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_rect.html">UIRect</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_rect_button.html">UIRectButton</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite.html">UISprite</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite_button.html">UISpriteButton</a> (<a class="el" href="namespace_keg2_d_1_1_graphics_1_1_u_i.html">Keg2D.Graphics.UI</a>)</dd><dd><a class="el" href="class_keg2_d_1_1_utils_1_1_utils.html">Utils</a> (<a class="el" href="namespace_keg2_d_1_1_utils.html">Keg2D.Utils</a>)</dd></dl>
 </div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

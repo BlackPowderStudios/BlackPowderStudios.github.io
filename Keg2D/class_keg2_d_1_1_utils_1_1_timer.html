@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -51,23 +47,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_keg2_d_1_1_utils_1_1_timer.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -89,6 +68,11 @@ $(document).ready(function(){initNavTree('class_keg2_d_1_1_utils_1_1_timer.html'
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_utils.html">Utils</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_utils_1_1_timer.html">Timer</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -127,8 +111,6 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A Timer used for time based events. </p>
-
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00012">12</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a559bf3e7ffa88a50681e7dfb5b2a06e6" name="a559bf3e7ffa88a50681e7dfb5b2a06e6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a559bf3e7ffa88a50681e7dfb5b2a06e6">&#9670;&#160;</a></span>Timer()</h2>
@@ -154,8 +136,6 @@ Public Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00030">30</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -176,8 +156,6 @@ Public Attributes</h2></td></tr>
 
 <p>Pauses the Timer. </p>
 
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00049">49</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
-
 </div>
 </div>
 <a id="adf98409dd2021f7d2b041697b93425fd" name="adf98409dd2021f7d2b041697b93425fd"></a>
@@ -196,8 +174,6 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Resumes a paused Timer. </p>
-
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00059">59</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
 
 </div>
 </div>
@@ -218,8 +194,6 @@ Public Attributes</h2></td></tr>
 
 <p>Starts the Timer. </p>
 
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00037">37</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
-
 </div>
 </div>
 <a id="a856342f44d1c20949a88cd9cedb30dd1" name="a856342f44d1c20949a88cd9cedb30dd1"></a>
@@ -239,8 +213,6 @@ Public Attributes</h2></td></tr>
 
 <p>Updates the Timer. Used by TimerHandler. </p>
 
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00070">70</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -258,21 +230,15 @@ Public Attributes</h2></td></tr>
 
 <p>Invoked when the Timer is finished. </p>
 
-<p class="definition">Definition at line <a class="el" href="_timer_8cs_source.html#l00024">24</a> of file <a class="el" href="_timer_8cs_source.html">Timer.cs</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/user/OneDrive/Documents/Black Powder Studios/Projects/Sandbox/Keg2D/Keg2D/Utils/<a class="el" href="_timer_8cs_source.html">Timer.cs</a></li>
+<li>D:/Projects/Sandbox/Keg2D/Keg2D/Utils/Timer.cs</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_utils.html">Utils</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_utils_1_1_timer.html">Timer</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

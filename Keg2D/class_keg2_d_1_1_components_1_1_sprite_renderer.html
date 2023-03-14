@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -51,23 +47,6 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('class_keg2_d_1_1_components_1_1_sprite_renderer.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -89,6 +68,11 @@ $(document).ready(function(){initNavTree('class_keg2_d_1_1_components_1_1_sprite
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html">SpriteRenderer</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -112,9 +96,9 @@ Inheritance diagram for Keg2D.Components.SpriteRenderer:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3be3bcbaa85bef6c9a82b6d46a0f8177"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a3be3bcbaa85bef6c9a82b6d46a0f8177">SpriteRenderer</a> (<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html">Sprite</a> <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a01b2054c1f384ef3bf0b50d431a6f312">sprite</a>, float <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a7a5d5fa0d72121c10872e128e240c8c6">layer</a>=0f)</td></tr>
-<tr class="memdesc:a3be3bcbaa85bef6c9a82b6d46a0f8177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new SpriteRenderer.  <br /></td></tr>
-<tr class="separator:a3be3bcbaa85bef6c9a82b6d46a0f8177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a86108650aa221370d6eff60692241"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a52a86108650aa221370d6eff60692241">SpriteRenderer</a> ()</td></tr>
+<tr class="memdesc:a52a86108650aa221370d6eff60692241"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new SpriteRenderer.  <br /></td></tr>
+<tr class="separator:a52a86108650aa221370d6eff60692241"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f04426bb4f9f4356d0326c7a82e2803"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a7f04426bb4f9f4356d0326c7a82e2803">SpriteRenderer</a> (<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html">Sprite</a> <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a01b2054c1f384ef3bf0b50d431a6f312">sprite</a>, Color <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a36030264e2aa2c0f3d3dee3024db7f5d">color</a>, float <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a7a5d5fa0d72121c10872e128e240c8c6">layer</a>=0f)</td></tr>
 <tr class="memdesc:a7f04426bb4f9f4356d0326c7a82e2803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new SpriteRenderer.  <br /></td></tr>
 <tr class="separator:a7f04426bb4f9f4356d0326c7a82e2803"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -166,11 +150,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Renders a Sprite at the Transform.position. </p>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00010">10</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3be3bcbaa85bef6c9a82b6d46a0f8177" name="a3be3bcbaa85bef6c9a82b6d46a0f8177"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3be3bcbaa85bef6c9a82b6d46a0f8177">&#9670;&#160;</a></span>SpriteRenderer() <span class="overload">[1/2]</span></h2>
+<a id="a52a86108650aa221370d6eff60692241" name="a52a86108650aa221370d6eff60692241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a86108650aa221370d6eff60692241">&#9670;&#160;</a></span>SpriteRenderer() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -178,33 +160,13 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">Keg2D.Components.SpriteRenderer.SpriteRenderer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html">Sprite</a>&#160;</td>
-          <td class="paramname"><em>sprite</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>layer</em> = <code>0f</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Creates a new SpriteRenderer. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">sprite</td><td>The Sprite to render.</td></tr>
-    <tr><td class="paramname">layer</td><td>The layer to render the Sprite at.</td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00032">32</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
 
 </div>
 </div>
@@ -250,8 +212,6 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00044">44</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -289,8 +249,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="class_keg2_d_1_1_component.html#a6b86ad123f0f83a1818a2d6ea8dc65ef">Keg2D.Component</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00050">50</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -308,8 +266,6 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The Color of the Sprite. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00020">20</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
-
 </div>
 </div>
 <a id="a7a5d5fa0d72121c10872e128e240c8c6" name="a7a5d5fa0d72121c10872e128e240c8c6"></a>
@@ -325,8 +281,6 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The layer to render the Sprite at. </p>
-
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00025">25</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
 
 </div>
 </div>
@@ -344,21 +298,15 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The Sprite to render. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sprite_renderer_8cs_source.html#l00015">15</a> of file <a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/user/OneDrive/Documents/Black Powder Studios/Projects/Sandbox/Keg2D/Keg2D/Components/<a class="el" href="_sprite_renderer_8cs_source.html">SpriteRenderer.cs</a></li>
+<li>D:/Projects/Sandbox/Keg2D/Keg2D/Components/SpriteRenderer.cs</li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="namespace_keg2_d.html">Keg2D</a></li><li class="navelem"><a class="el" href="namespace_keg2_d_1_1_components.html">Components</a></li><li class="navelem"><a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html">SpriteRenderer</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

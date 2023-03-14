@@ -1,14 +1,11 @@
 var searchData=
 [
-  ['hasclicked_0',['hasClicked',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_interactable.html#aad67037c4cfe3fb61617bb5f9727ebfa',1,'Keg2D::Graphics::UI::UIInteractable']]],
-  ['hasentered_1',['hasEntered',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_interactable.html#accb9c7ccc4d54369eb512cdb040e22b4',1,'Keg2D::Graphics::UI::UIInteractable']]],
-  ['hasrightclicked_2',['hasRightClicked',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_interactable.html#ae41cc429267265d782f13bc2af4161b4',1,'Keg2D::Graphics::UI::UIInteractable']]],
-  ['heap_3',['Heap',['../class_keg2_d_1_1_utils_1_1_heap.html#a93961f554ca4509b967fd23c3903664a',1,'Keg2D.Utils.Heap.Heap()'],['../class_keg2_d_1_1_utils_1_1_heap.html',1,'Keg2D.Utils.Heap&lt; T &gt;']]],
-  ['heap_2ecs_4',['Heap.cs',['../_heap_8cs.html',1,'']]],
-  ['heapindex_5',['HeapIndex',['../interface_keg2_d_1_1_utils_1_1_i_heap_item.html#aeca14088d0abbc3496930d14d6434274',1,'Keg2D::Utils::IHeapItem']]],
-  ['height_6',['Height',['../class_keg2_d_1_1_collider.html#a99427db9e44b2eec81c6f2bf2becd69c',1,'Keg2D.Collider.Height()'],['../class_keg2_d_1_1_graphics_1_1_sprite.html#a74dedcc4a9e037b35b3f85929b537e0f',1,'Keg2D.Graphics.Sprite.Height()']]],
-  ['height_7',['height',['../class_keg2_d_1_1_scene_management_1_1_level.html#a0536ebd6a706599cc66b2f44296e7cd9',1,'Keg2D::SceneManagement::Level']]],
-  ['hextobinary_8',['HexToBinary',['../class_keg2_d_1_1_utils_1_1_string_helper.html#adffae1a321c739ddb597fb45351d88b6',1,'Keg2D::Utils::StringHelper']]],
-  ['hextostring_9',['HexToString',['../class_keg2_d_1_1_utils_1_1_string_helper.html#afb780cf845dccfc6bee5fb4ec0a689e3',1,'Keg2D::Utils::StringHelper']]],
-  ['hovercolor_10',['hoverColor',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_rect_button.html#a9abe52e39bbbb538688c13012d4186d1',1,'Keg2D::Graphics::UI::UIRectButton']]]
+  ['iheapitem_0',['IHeapItem',['../interface_keg2_d_1_1_utils_1_1_i_heap_item.html',1,'Keg2D::Utils']]],
+  ['init_1',['Init',['../class_keg2_d_1_1_entry_point.html#a589e0317a3ac0a163b502bff4c53b9b4',1,'Keg2D.EntryPoint.Init()'],['../class_keg2_d_1_1_scene_management_1_1_tiled_level.html#a1212aab0279b6f7cc75d5d7b00e74188',1,'Keg2D.SceneManagement.TiledLevel.Init()'],['../class_keg2_d_1_1_utils_1_1_localization.html#a94eac5a7cc3855b62b4117938a4bfbe5',1,'Keg2D.Utils.Localization.Init()'],['../class_keg2_d_1_1_utils_1_1_steam_helper.html#aee300639a5cd38e74f0476c0a72ebc17',1,'Keg2D.Utils.SteamHelper.Init()']]],
+  ['initialize_2',['Initialize',['../class_keg2_d_1_1_entry_point.html#af63e33d8fd5cb61cf6bce26816d2abbb',1,'Keg2D::EntryPoint']]],
+  ['input_3',['Input',['../class_keg2_d_1_1_input.html',1,'Keg2D']]],
+  ['instantiate_3c_20t_20_3e_4',['Instantiate&lt; T &gt;',['../class_keg2_d_1_1_scene_management_1_1_scene.html#a7dacc74868528d0f336df8c76a913d5c',1,'Keg2D::SceneManagement::Scene']]],
+  ['ischecked_5',['IsChecked',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#a52e3cb08a26e36c74b6db81808082a7a',1,'Keg2D::Graphics::UI::UICheckBox']]],
+  ['iskeydown_6',['IsKeyDown',['../class_keg2_d_1_1_input.html#a9b150c6276b90d1a728212a1da9eadb8',1,'Keg2D::Input']]],
+  ['iskeyup_7',['IsKeyUp',['../class_keg2_d_1_1_input.html#a88ee3f1607376796fddddb0b74db29cb',1,'Keg2D::Input']]]
 ];

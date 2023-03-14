@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -52,22 +48,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('functions_g.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -95,6 +75,7 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
 <li>gameObject&#160;:&#160;<a class="el" href="class_keg2_d_1_1_component.html#a19bf2eec6293ea0f9923a95902f6610c">Keg2D.Component</a></li>
 <li>gamepadInput&#160;:&#160;<a class="el" href="class_keg2_d_1_1_key_binding.html#ae3dc340f949f99b6e8d0a33a3ec496ce">Keg2D.KeyBinding</a></li>
+<li>GenerateCollisions()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_scene_management_1_1_tilemap.html#aeaa4b4e3ccd7028c61942283f11e7fc8">Keg2D.SceneManagement.Tilemap</a></li>
 <li>GenerateTexture2D()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_utils.html#ab3f6cc5692a7989eb5f44f0db272e227">Keg2D.Utils.Utils</a></li>
 <li>GetAchievement()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a72288f9fddad42a69a28159665e00906">Keg2D.Utils.SteamHelper</a></li>
 <li>GetAchievements()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#ad42fc0116c8ffc4619d3d938ed95e93e">Keg2D.Utils.SteamHelper</a></li>
@@ -104,20 +85,19 @@ $(document).ready(function(){initNavTree('functions_g.html',''); initResizable()
 <li>GetData()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_serializable_data.html#abfab0546e4009f858fcf6ca5024eec19">Keg2D.Utils.SerializableData</a></li>
 <li>GetFont()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_font.html#ac66a596fed2f7d1097dd6535b77fc3e9">Keg2D.Graphics.UI.UIFont</a></li>
 <li>GetGameObject()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#acb1d1540cab670355d7e0af096fba6d4">Keg2D.SceneManagement.Scene</a></li>
+<li>GetLocalizedString()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_localization.html#a9df3ca527b852ebdd89fb5807763058e">Keg2D.Utils.Localization</a></li>
 <li>GetLooping()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_audio_1_1_audio_player.html#a65c3e4a3eaf588a96725d57f2172d1a2">Keg2D.Audio.AudioPlayer</a></li>
 <li>GetRawData()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_serializable_data.html#aee0e5bbe771ba6a597a20f71b807f3ba">Keg2D.Utils.SerializableData</a></li>
 <li>GetScene()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene_manager.html#af264c48ef381f11ce5e0a20a00536ee3">Keg2D.SceneManagement.SceneManager</a></li>
 <li>GetSprite()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_animated_sprite.html#a207e49c119f44829ee5fc9629124c164">Keg2D.Graphics.AnimatedSprite</a></li>
+<li>GetTile()&#160;:&#160;<a class="el" href="interface_keg2_d_1_1_scene_management_1_1_level.html#ac94d6741acc8769e8c55372dd30de3f4">Keg2D.SceneManagement.Level</a>, <a class="el" href="class_keg2_d_1_1_scene_management_1_1_tiled_level.html#ac1d8d40da75f6851cc2ce151cdfbaa27">Keg2D.SceneManagement.TiledLevel</a>, <a class="el" href="class_keg2_d_1_1_scene_management_1_1_tilemap.html#ad69a60bca3123192060de0bcf64046f1">Keg2D.SceneManagement.Tilemap</a></li>
 <li>GetUI()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#acc06802268cc56eec5186fc6e4f15f30">Keg2D.SceneManagement.Scene</a></li>
 <li>GRAPHICS_DEVICE_MANAGER&#160;:&#160;<a class="el" href="class_keg2_d_1_1_engine_globals.html#a8cc5bbfe0cda36e773b4a9eb09fe4e61">Keg2D.EngineGlobals</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

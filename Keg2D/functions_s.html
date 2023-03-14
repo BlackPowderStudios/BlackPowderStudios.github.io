@@ -9,10 +9,6 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="resize.js"></script>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -25,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.7.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -52,22 +48,6 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('functions_s.html',''); initResizable(); });
-/* @license-end */
-</script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -94,21 +74,32 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
 <li>SaveData()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_serialization.html#a3e4890fcb4a2902e2caa2c5d91c1549d">Keg2D.Utils.Serialization</a></li>
-<li>scale&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite.html#a83862d605e509cd3055d05ebfae398f0">Keg2D.Graphics.UI.UISprite</a>, <a class="el" href="class_keg2_d_1_1_transform.html#a70e5b6d4fba6744fd476541403a5e753">Keg2D.Transform</a></li>
+<li>Scale&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#a1216031a79ea5b87fa13b9b707c3605c">Keg2D.Graphics.UI.UICheckBox</a></li>
+<li>scale&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite.html#a83862d605e509cd3055d05ebfae398f0">Keg2D.Graphics.UI.UISprite</a></li>
+<li>Scale&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite_button.html#affea0b7ab74fa25111f0b9a01d4065a5">Keg2D.Graphics.UI.UISpriteButton</a></li>
+<li>scale&#160;:&#160;<a class="el" href="class_keg2_d_1_1_transform.html#a70e5b6d4fba6744fd476541403a5e753">Keg2D.Transform</a></li>
+<li>ScreenHeight&#160;:&#160;<a class="el" href="class_keg2_d_1_1_engine_globals.html#a864cf9e2323c119dc44e777f0818b6a4">Keg2D.EngineGlobals</a></li>
+<li>ScreenWidth&#160;:&#160;<a class="el" href="class_keg2_d_1_1_engine_globals.html#a1a46a79d7c3bc11050c1c0d30b0b9e5e">Keg2D.EngineGlobals</a></li>
 <li>SetDataValue()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_serializable_data.html#a698e3530e93c623bd9ad70efca79b16e">Keg2D.Utils.SerializableData</a></li>
 <li>SetLooping()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_audio_1_1_audio_player.html#afc727bda7d5fcd08484153b78efcf448">Keg2D.Audio.AudioPlayer</a></li>
+<li>SetPosition()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#a2f3851f59e587678de354055056305d3">Keg2D.Graphics.UI.UICheckBox</a></li>
 <li>SetRawData()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_serializable_data.html#a1f0b513561813c2744b2c3a28cca6b2d">Keg2D.Utils.SerializableData</a></li>
+<li>SetScale()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#a4278c0ee7e872e8e868263ded3d67725">Keg2D.Graphics.UI.UICheckBox</a></li>
+<li>SetTile()&#160;:&#160;<a class="el" href="interface_keg2_d_1_1_scene_management_1_1_level.html#a11b042af5416a1d0668a31391d5d7976">Keg2D.SceneManagement.Level</a>, <a class="el" href="class_keg2_d_1_1_scene_management_1_1_tiled_level.html#a4e99f5f8c2d23e0958b749f143a87dd3">Keg2D.SceneManagement.TiledLevel</a>, <a class="el" href="class_keg2_d_1_1_scene_management_1_1_tilemap.html#a023a44201a44bb6a9a1b60cf57afdf77">Keg2D.SceneManagement.Tilemap</a></li>
 <li>SetVolume()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_audio_1_1_audio_player.html#a1dacae4521155f10135928cee3843eb4">Keg2D.Audio.AudioPlayer</a></li>
 <li>SFX&#160;:&#160;<a class="el" href="class_keg2_d_1_1_audio_1_1_audio_clip.html#ab4f7ac320f4944217b32c0fdecd53d86">Keg2D.Audio.AudioClip</a></li>
-<li>Sheet&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html#a5e2589ef27b4ada17875d8556404ad60">Keg2D.Graphics.Sprite</a></li>
+<li>shadowOffset&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_label.html#a88cfac4fa0574f0281d7569f50c8ee01">Keg2D.Graphics.UI.UILabel</a></li>
+<li>Sheet&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html#a5e2589ef27b4ada17875d8556404ad60">Keg2D.Graphics.Sprite</a>, <a class="el" href="class_keg2_d_1_1_graphics_1_1_tile.html#a29266516190b3a811efd918bef6fb4ee">Keg2D.Graphics.Tile</a></li>
 <li>Shutdown()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#aae05d2657acc2fbab441098dc6ee4c7b">Keg2D.Utils.SteamHelper</a></li>
 <li>SoundCategory&#160;:&#160;<a class="el" href="class_keg2_d_1_1_audio_1_1_audio_clip.html#a890e56130eb70346a3a63dee8613b06e">Keg2D.Audio.AudioClip</a></li>
-<li>SourceRect&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html#ae13520a8f99e0f46f9dba628a4d05d08">Keg2D.Graphics.Sprite</a></li>
+<li>SourceRect&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html#ae13520a8f99e0f46f9dba628a4d05d08">Keg2D.Graphics.Sprite</a>, <a class="el" href="class_keg2_d_1_1_graphics_1_1_tile.html#a0307fbe552fa4c6ff14882e5aaf57a56">Keg2D.Graphics.Tile</a></li>
+<li>Split()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_tileset.html#af4d0153f8f53efb6daa907288b4a813d">Keg2D.Graphics.Tileset</a></li>
 <li>sprite&#160;:&#160;<a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a01b2054c1f384ef3bf0b50d431a6f312">Keg2D.Components.SpriteRenderer</a></li>
-<li>Sprite()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html#adfca6201572698a3a9000135a70d816d">Keg2D.Graphics.Sprite</a></li>
+<li>Sprite()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite.html#adfca6201572698a3a9000135a70d816d">Keg2D.Graphics.Sprite</a>, <a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#afbbb80fbe8e9bfaf12e94c2e60e7c890">Keg2D.Graphics.UI.UICheckBox</a></li>
 <li>sprite&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite.html#afcee990284e440334bf6154eb96a09f3">Keg2D.Graphics.UI.UISprite</a></li>
+<li>Sprite&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_sprite_button.html#ad9da83e9d6be30200444dce03c323370">Keg2D.Graphics.UI.UISpriteButton</a></li>
 <li>SPRITE_BATCH&#160;:&#160;<a class="el" href="class_keg2_d_1_1_engine_globals.html#a1dc84b8bdc30f7bfac1eb6c98e3fd06f">Keg2D.EngineGlobals</a></li>
-<li>SpriteRenderer()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a3be3bcbaa85bef6c9a82b6d46a0f8177">Keg2D.Components.SpriteRenderer</a></li>
+<li>SpriteRenderer()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#a52a86108650aa221370d6eff60692241">Keg2D.Components.SpriteRenderer</a></li>
 <li>Sprites&#160;:&#160;<a class="el" href="class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#ad9f57ce821fd72082063d94b7aac1cad">Keg2D.Components.AnimatedSpriteRenderer</a></li>
 <li>SpriteSheet()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_graphics_1_1_sprite_sheet.html#ab422a646ac285c132475d97f05a9bede">Keg2D.Graphics.SpriteSheet</a></li>
 <li>Start()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_component.html#aa7534e984ba24a2f6fd3842dc6355101">Keg2D.Component</a>, <a class="el" href="class_keg2_d_1_1_game_object.html#ae4eb32264ac3538b40f125ebb5fb1004">Keg2D.GameObject</a>, <a class="el" href="class_keg2_d_1_1_utils_1_1_timer.html#affba01d0e281e3fc3d7e92ae8c047a41">Keg2D.Utils.Timer</a></li>
@@ -118,12 +109,9 @@ $(document).ready(function(){initNavTree('functions_s.html',''); initResizable()
 <li>StringToHex()&#160;:&#160;<a class="el" href="class_keg2_d_1_1_utils_1_1_string_helper.html#a28fc24c523bd358a386c1e53afe482e1">Keg2D.Utils.StringHelper</a></li>
 </ul>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
+</small></address>
 </body>
 </html>

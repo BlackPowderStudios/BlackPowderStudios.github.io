@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['mathhelper_0',['MathHelper',['../class_keg2_d_1_1_utils_1_1_math_helper.html',1,'Keg2D::Utils']]],
-  ['mathhelper_2ecs_1',['MathHelper.cs',['../_math_helper_8cs.html',1,'']]]
+  ['name_0',['Name',['../class_keg2_d_1_1_graphics_1_1_sprite_sheet.html#ad0576c09c970444eda0d70a517161356',1,'Keg2D.Graphics.SpriteSheet.Name()'],['../class_keg2_d_1_1_graphics_1_1_tileset.html#ad28c648af030afbfbdf2d0b487ac36b8',1,'Keg2D.Graphics.Tileset.Name()']]]
 ];
