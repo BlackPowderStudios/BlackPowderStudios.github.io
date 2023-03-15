@@ -9,6 +9,7 @@ var searchData=
   ['ontimerfinished_6',['OnTimerFinished',['../class_keg2_d_1_1_utils_1_1_timer.html#a5e59e574d995a2a41947f2bef690ec05',1,'Keg2D::Utils::Timer']]],
   ['ontrigger_7',['OnTrigger',['../class_keg2_d_1_1_collider.html#a4aa5619dd4b9144397bc959f5f13cbc5',1,'Keg2D.Collider.OnTrigger()'],['../class_keg2_d_1_1_events_1_1_event.html#ab3e7258b50222c7497d363e04752dd51',1,'Keg2D.Events.Event.OnTrigger()'],['../class_keg2_d_1_1_component.html#a89e7006b3a29e08456eedaef14f57fda',1,'Keg2D.Component.OnTrigger()'],['../class_keg2_d_1_1_game_object.html#a4abb017dfabbf5bd77325a482d87151b',1,'Keg2D.GameObject.OnTrigger()']]],
   ['onvaluechanged_8',['OnValueChanged',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#abe3ed188cb2b9cb23814cb871dab11e9',1,'Keg2D::Graphics::UI::UICheckBox']]],
-  ['origin_9',['Origin',['../class_keg2_d_1_1_graphics_1_1_sprite.html#ade52da52d97a011872c232910f9ed893',1,'Keg2D::Graphics::Sprite']]],
-  ['ownsappid_10',['OwnsAppID',['../class_keg2_d_1_1_utils_1_1_steam_helper.html#adbf91fdd59394ae756009708d846b93b',1,'Keg2D::Utils::SteamHelper']]]
+  ['origin_9',['Origin',['../class_keg2_d_1_1_graphics_1_1_sprite.html#ade52da52d97a011872c232910f9ed893',1,'Keg2D.Graphics.Sprite.Origin()'],['../class_keg2_d_1_1_utils_1_1_camera.html#a50871b0700475fce1bef2a978a01946b',1,'Keg2D.Utils.Camera.Origin()']]],
+  ['originmatrix_10',['OriginMatrix',['../class_keg2_d_1_1_utils_1_1_camera.html#a5a881010f5268dd9f2f16ed0a91c3873',1,'Keg2D::Utils::Camera']]],
+  ['ownsappid_11',['OwnsAppID',['../class_keg2_d_1_1_utils_1_1_steam_helper.html#adbf91fdd59394ae756009708d846b93b',1,'Keg2D::Utils::SteamHelper']]]
 ];

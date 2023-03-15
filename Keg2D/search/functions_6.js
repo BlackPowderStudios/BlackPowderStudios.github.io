@@ -13,11 +13,13 @@ var searchData=
   ['geteventvalue_10',['GetEventValue',['../class_keg2_d_1_1_utils_1_1_debug.html#a99ddad0036996cfff3b1343dba3414cd',1,'Keg2D::Utils::Debug']]],
   ['getfont_11',['GetFont',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_font.html#ac66a596fed2f7d1097dd6535b77fc3e9',1,'Keg2D::Graphics::UI::UIFont']]],
   ['getgameobject_12',['GetGameObject',['../class_keg2_d_1_1_scene_management_1_1_scene.html#acb1d1540cab670355d7e0af096fba6d4',1,'Keg2D::SceneManagement::Scene']]],
-  ['getlocalizedstring_13',['GetLocalizedString',['../class_keg2_d_1_1_utils_1_1_localization.html#a9df3ca527b852ebdd89fb5807763058e',1,'Keg2D::Utils::Localization']]],
-  ['getlooping_14',['GetLooping',['../class_keg2_d_1_1_audio_1_1_audio_player.html#a65c3e4a3eaf588a96725d57f2172d1a2',1,'Keg2D::Audio::AudioPlayer']]],
-  ['getrawdata_15',['GetRawData',['../class_keg2_d_1_1_utils_1_1_serializable_data.html#aee0e5bbe771ba6a597a20f71b807f3ba',1,'Keg2D::Utils::SerializableData']]],
-  ['getscene_16',['GetScene',['../class_keg2_d_1_1_scene_management_1_1_scene_manager.html#af264c48ef381f11ce5e0a20a00536ee3',1,'Keg2D::SceneManagement::SceneManager']]],
-  ['getsprite_17',['GetSprite',['../class_keg2_d_1_1_graphics_1_1_animated_sprite.html#a207e49c119f44829ee5fc9629124c164',1,'Keg2D::Graphics::AnimatedSprite']]],
-  ['gettile_18',['GetTile',['../interface_keg2_d_1_1_scene_management_1_1_level.html#ac94d6741acc8769e8c55372dd30de3f4',1,'Keg2D.SceneManagement.Level.GetTile()'],['../class_keg2_d_1_1_scene_management_1_1_tiled_level.html#ac1d8d40da75f6851cc2ce151cdfbaa27',1,'Keg2D.SceneManagement.TiledLevel.GetTile()'],['../class_keg2_d_1_1_scene_management_1_1_tilemap.html#ad69a60bca3123192060de0bcf64046f1',1,'Keg2D.SceneManagement.Tilemap.GetTile()']]],
-  ['getui_19',['GetUI',['../class_keg2_d_1_1_scene_management_1_1_scene.html#acc06802268cc56eec5186fc6e4f15f30',1,'Keg2D::SceneManagement::Scene']]]
+  ['getlight_13',['GetLight',['../class_keg2_d_1_1_scene_management_1_1_lighting_engine.html#a504fe28b9cd05a834232331458ab3c37',1,'Keg2D::SceneManagement::LightingEngine']]],
+  ['getlightposition_14',['GetLightPosition',['../class_keg2_d_1_1_scene_management_1_1_lighting_engine.html#a8195b775a552a899a17252f7c3de5461',1,'Keg2D::SceneManagement::LightingEngine']]],
+  ['getlocalizedstring_15',['GetLocalizedString',['../class_keg2_d_1_1_utils_1_1_localization.html#a9df3ca527b852ebdd89fb5807763058e',1,'Keg2D::Utils::Localization']]],
+  ['getlooping_16',['GetLooping',['../class_keg2_d_1_1_audio_1_1_audio_player.html#a65c3e4a3eaf588a96725d57f2172d1a2',1,'Keg2D::Audio::AudioPlayer']]],
+  ['getrawdata_17',['GetRawData',['../class_keg2_d_1_1_utils_1_1_serializable_data.html#aee0e5bbe771ba6a597a20f71b807f3ba',1,'Keg2D::Utils::SerializableData']]],
+  ['getscene_18',['GetScene',['../class_keg2_d_1_1_scene_management_1_1_scene_manager.html#af264c48ef381f11ce5e0a20a00536ee3',1,'Keg2D::SceneManagement::SceneManager']]],
+  ['getsprite_19',['GetSprite',['../class_keg2_d_1_1_graphics_1_1_animated_sprite.html#a207e49c119f44829ee5fc9629124c164',1,'Keg2D::Graphics::AnimatedSprite']]],
+  ['gettile_20',['GetTile',['../interface_keg2_d_1_1_scene_management_1_1_level.html#ac94d6741acc8769e8c55372dd30de3f4',1,'Keg2D.SceneManagement.Level.GetTile()'],['../class_keg2_d_1_1_scene_management_1_1_tiled_level.html#ac1d8d40da75f6851cc2ce151cdfbaa27',1,'Keg2D.SceneManagement.TiledLevel.GetTile()'],['../class_keg2_d_1_1_scene_management_1_1_tilemap.html#ad69a60bca3123192060de0bcf64046f1',1,'Keg2D.SceneManagement.Tilemap.GetTile()']]],
+  ['getui_21',['GetUI',['../class_keg2_d_1_1_scene_management_1_1_scene.html#acc06802268cc56eec5186fc6e4f15f30',1,'Keg2D::SceneManagement::Scene']]]
 ];

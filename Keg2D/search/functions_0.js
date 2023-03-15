@@ -8,9 +8,10 @@ var searchData=
   ['adddata_5',['AddData',['../class_keg2_d_1_1_utils_1_1_serializable_data.html#ab50dca7013282cd4b2a71948e18ee640',1,'Keg2D::Utils::SerializableData']]],
   ['addevent_6',['AddEvent',['../class_keg2_d_1_1_events_1_1_event_handler.html#ab5f7d16ec22da621da4773a87af62d07',1,'Keg2D::Events::EventHandler']]],
   ['addkeybinding_7',['AddKeyBinding',['../class_keg2_d_1_1_input.html#a6badabd3d310064752296ebad06bcecf',1,'Keg2D::Input']]],
-  ['addui_8',['AddUI',['../class_keg2_d_1_1_scene_management_1_1_scene.html#a1127784393ef10e0911abbb1673b2642',1,'Keg2D::SceneManagement::Scene']]],
-  ['animatedsprite_9',['AnimatedSprite',['../class_keg2_d_1_1_graphics_1_1_animated_sprite.html#a46275176f19fbf3a13d30cd28caf59f8',1,'Keg2D::Graphics::AnimatedSprite']]],
-  ['animatedspriterenderer_10',['AnimatedSpriteRenderer',['../class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#a3ea81d4fe243ca63d00b67fe6f53e20f',1,'Keg2D.Components.AnimatedSpriteRenderer.AnimatedSpriteRenderer(AnimatedSprite sprites)'],['../class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#af6aaa03319787b231f3e7a5e16306802',1,'Keg2D.Components.AnimatedSpriteRenderer.AnimatedSpriteRenderer(AnimatedSprite sprites, Color color)']]],
-  ['audioclip_11',['AudioClip',['../class_keg2_d_1_1_audio_1_1_audio_clip.html#a292b866085e1108c85c6f84e9248b25d',1,'Keg2D::Audio::AudioClip']]],
-  ['awake_12',['Awake',['../class_keg2_d_1_1_component.html#a6b663753e8c5418e9917c7db5820de14',1,'Keg2D::Component']]]
+  ['addlight_8',['AddLight',['../class_keg2_d_1_1_scene_management_1_1_lighting_engine.html#a5245fa2d5dd0971c60792fe6d006e754',1,'Keg2D::SceneManagement::LightingEngine']]],
+  ['addui_9',['AddUI',['../class_keg2_d_1_1_scene_management_1_1_scene.html#a1127784393ef10e0911abbb1673b2642',1,'Keg2D::SceneManagement::Scene']]],
+  ['animatedsprite_10',['AnimatedSprite',['../class_keg2_d_1_1_graphics_1_1_animated_sprite.html#a46275176f19fbf3a13d30cd28caf59f8',1,'Keg2D::Graphics::AnimatedSprite']]],
+  ['animatedspriterenderer_11',['AnimatedSpriteRenderer',['../class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#a3ea81d4fe243ca63d00b67fe6f53e20f',1,'Keg2D.Components.AnimatedSpriteRenderer.AnimatedSpriteRenderer(AnimatedSprite sprites)'],['../class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#af6aaa03319787b231f3e7a5e16306802',1,'Keg2D.Components.AnimatedSpriteRenderer.AnimatedSpriteRenderer(AnimatedSprite sprites, Color color)']]],
+  ['audioclip_12',['AudioClip',['../class_keg2_d_1_1_audio_1_1_audio_clip.html#a292b866085e1108c85c6f84e9248b25d',1,'Keg2D::Audio::AudioClip']]],
+  ['awake_13',['Awake',['../class_keg2_d_1_1_component.html#a6b663753e8c5418e9917c7db5820de14',1,'Keg2D::Component']]]
 ];

@@ -14,6 +14,7 @@ var searchData=
   ['unloadcontent_11',['UnloadContent',['../class_keg2_d_1_1_entry_point.html#ac6e478fd25c8fb87cb3b709ec5a7a277',1,'Keg2D::EntryPoint']]],
   ['update_12',['Update',['../class_keg2_d_1_1_entry_point.html#ada9e445d9503b65dc6841ae8f48bce9f',1,'Keg2D::EntryPoint']]],
   ['updateitem_13',['UpdateItem',['../class_keg2_d_1_1_utils_1_1_heap.html#ad9456b26834646221bf4f9ade6cb9486',1,'Keg2D::Utils::Heap']]],
-  ['updateoncollision_14',['UpdateOnCollision',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#ad6b541af4aeff99dccdfd07e612fc492',1,'Keg2D::Components::BoxCollider2D']]],
-  ['updateontrigger_15',['UpdateOnTrigger',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#a24432ca2872604c757a72218c42fea53',1,'Keg2D::Components::BoxCollider2D']]]
+  ['updatemousexy_14',['UpdateMouseXY',['../class_keg2_d_1_1_utils_1_1_camera.html#aa5d2b9fef69de0f83e7c5beb604b9128',1,'Keg2D::Utils::Camera']]],
+  ['updateoncollision_15',['UpdateOnCollision',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#ad6b541af4aeff99dccdfd07e612fc492',1,'Keg2D::Components::BoxCollider2D']]],
+  ['updateontrigger_16',['UpdateOnTrigger',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#a24432ca2872604c757a72218c42fea53',1,'Keg2D::Components::BoxCollider2D']]]
 ];

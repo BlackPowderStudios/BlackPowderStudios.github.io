@@ -15,11 +15,13 @@ var searchData=
   ['unloadcontent_12',['UnloadContent',['../class_keg2_d_1_1_entry_point.html#ac6e478fd25c8fb87cb3b709ec5a7a277',1,'Keg2D::EntryPoint']]],
   ['update_13',['Update',['../class_keg2_d_1_1_entry_point.html#ada9e445d9503b65dc6841ae8f48bce9f',1,'Keg2D::EntryPoint']]],
   ['updateitem_14',['UpdateItem',['../class_keg2_d_1_1_utils_1_1_heap.html#ad9456b26834646221bf4f9ade6cb9486',1,'Keg2D::Utils::Heap']]],
-  ['updateoncollision_15',['UpdateOnCollision',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#ad6b541af4aeff99dccdfd07e612fc492',1,'Keg2D::Components::BoxCollider2D']]],
-  ['updateontrigger_16',['UpdateOnTrigger',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#a24432ca2872604c757a72218c42fea53',1,'Keg2D::Components::BoxCollider2D']]],
-  ['use_5fcontroller_17',['USE_CONTROLLER',['../class_keg2_d_1_1_input.html#ac34e2809e4c7b578e93043239c712d9a',1,'Keg2D::Input']]],
-  ['usecloudstorage_18',['UseCloudStorage',['../class_keg2_d_1_1_utils_1_1_steam_helper.html#a4693c95ec0281cd99b6e292c7ef91936',1,'Keg2D::Utils::SteamHelper']]],
-  ['userandomcolors_19',['UseRandomColors',['../class_keg2_d_1_1_components_1_1_particle_emitter.html#a698bc46ca1133184860eba004d8fcb18',1,'Keg2D::Components::ParticleEmitter']]],
-  ['utils_20',['Utils',['../class_keg2_d_1_1_utils_1_1_utils.html',1,'Keg2D::Utils']]],
-  ['uuid_21',['UUID',['../class_keg2_d_1_1_component.html#ad75edd59574250536d1488f58bfb29ae',1,'Keg2D.Component.UUID()'],['../class_keg2_d_1_1_game_object.html#a51bca81c263372c42348fcb67a48cd44',1,'Keg2D.GameObject.UUID()']]]
+  ['updatemousexy_15',['UpdateMouseXY',['../class_keg2_d_1_1_utils_1_1_camera.html#aa5d2b9fef69de0f83e7c5beb604b9128',1,'Keg2D::Utils::Camera']]],
+  ['updateoncollision_16',['UpdateOnCollision',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#ad6b541af4aeff99dccdfd07e612fc492',1,'Keg2D::Components::BoxCollider2D']]],
+  ['updateontrigger_17',['UpdateOnTrigger',['../class_keg2_d_1_1_components_1_1_box_collider2_d.html#a24432ca2872604c757a72218c42fea53',1,'Keg2D::Components::BoxCollider2D']]],
+  ['use_5fcontroller_18',['USE_CONTROLLER',['../class_keg2_d_1_1_input.html#ac34e2809e4c7b578e93043239c712d9a',1,'Keg2D::Input']]],
+  ['use_5ftime_5fdate_19',['USE_TIME_DATE',['../class_keg2_d_1_1_utils_1_1_debug.html#aa21c2e11304a7f0a9ad522b1b279170c',1,'Keg2D::Utils::Debug']]],
+  ['usecloudstorage_20',['UseCloudStorage',['../class_keg2_d_1_1_utils_1_1_steam_helper.html#a4693c95ec0281cd99b6e292c7ef91936',1,'Keg2D::Utils::SteamHelper']]],
+  ['userandomcolors_21',['UseRandomColors',['../class_keg2_d_1_1_components_1_1_particle_emitter.html#a698bc46ca1133184860eba004d8fcb18',1,'Keg2D::Components::ParticleEmitter']]],
+  ['utils_22',['Utils',['../class_keg2_d_1_1_utils_1_1_utils.html',1,'Keg2D::Utils']]],
+  ['uuid_23',['UUID',['../class_keg2_d_1_1_component.html#ad75edd59574250536d1488f58bfb29ae',1,'Keg2D.Component.UUID()'],['../class_keg2_d_1_1_game_object.html#a51bca81c263372c42348fcb67a48cd44',1,'Keg2D.GameObject.UUID()']]]
 ];
