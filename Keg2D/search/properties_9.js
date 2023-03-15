@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['rotation_0',['Rotation',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#abd250d085788421524c7cb3335617152',1,'Keg2D::Graphics::UI::UICheckBox']]]
+  ['language_0',['Language',['../class_keg2_d_1_1_utils_1_1_localization.html#a75f21f89acf523006b30ccbfe7f6c927',1,'Keg2D::Utils::Localization']]]
 ];

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.8</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -102,16 +102,234 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a56ae523946e4c9deb084ab258e15629a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a56ae523946e4c9deb084ab258e15629a">LogServer</a> (object msg)</td></tr>
 <tr class="memdesc:a56ae523946e4c9deb084ab258e15629a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a message to the console (SERVER SIDE).  <br /></td></tr>
 <tr class="separator:a56ae523946e4c9deb084ab258e15629a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d9ed6711d4aec0f001dc85daa04119"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a01d9ed6711d4aec0f001dc85daa04119">AddConsoleCommand</a> (string command, string details, Action&lt; string[]&gt; action)</td></tr>
+<tr class="memdesc:a01d9ed6711d4aec0f001dc85daa04119"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a ConsoleCommand.  <br /></td></tr>
+<tr class="separator:a01d9ed6711d4aec0f001dc85daa04119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad48c0e0ecae6be682557e6320cd005db"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#ad48c0e0ecae6be682557e6320cd005db">PrintHelpCommand</a> (string[] args)</td></tr>
+<tr class="memdesc:ad48c0e0ecae6be682557e6320cd005db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints a help screen to the console.  <br /></td></tr>
+<tr class="separator:ad48c0e0ecae6be682557e6320cd005db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35d0de08323171455ad8b6b4ba1edd57"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a35d0de08323171455ad8b6b4ba1edd57">ListScenes</a> (string[] args)</td></tr>
+<tr class="memdesc:a35d0de08323171455ad8b6b4ba1edd57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists every Scene.  <br /></td></tr>
+<tr class="separator:a35d0de08323171455ad8b6b4ba1edd57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a653d1cce4634791b577555f13527cb72"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a653d1cce4634791b577555f13527cb72">ChangeScene</a> (string[] args)</td></tr>
+<tr class="memdesc:a653d1cce4634791b577555f13527cb72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the current Scene.  <br /></td></tr>
+<tr class="separator:a653d1cce4634791b577555f13527cb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9db9dd184485d01eca018490129c66c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#ae9db9dd184485d01eca018490129c66c">TriggerEventViaConsole</a> (string[] args)</td></tr>
+<tr class="memdesc:ae9db9dd184485d01eca018490129c66c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers an event via the console.  <br /></td></tr>
+<tr class="separator:ae9db9dd184485d01eca018490129c66c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ddad0036996cfff3b1343dba3414cd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a99ddad0036996cfff3b1343dba3414cd">GetEventValue</a> (string[] args)</td></tr>
+<tr class="memdesc:a99ddad0036996cfff3b1343dba3414cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value of an Event.  <br /></td></tr>
+<tr class="separator:a99ddad0036996cfff3b1343dba3414cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a881c2af2b60c6f9a0afcbb4110ef4075"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a881c2af2b60c6f9a0afcbb4110ef4075">SetEventValue</a> (string[] args)</td></tr>
+<tr class="memdesc:a881c2af2b60c6f9a0afcbb4110ef4075"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of an Event.  <br /></td></tr>
+<tr class="separator:a881c2af2b60c6f9a0afcbb4110ef4075"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a516af4d35f4b791483a802471864c41f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a516af4d35f4b791483a802471864c41f">ListEvents</a> (string[] args)</td></tr>
+<tr class="memdesc:a516af4d35f4b791483a802471864c41f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists every Event within the EventHandler  <br /></td></tr>
+<tr class="separator:a516af4d35f4b791483a802471864c41f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a3c551f32911dde44deb31caedf7d4004"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#a3c551f32911dde44deb31caedf7d4004">DEBUG_MODE</a> = false</td></tr>
 <tr class="memdesc:a3c551f32911dde44deb31caedf7d4004"><td class="mdescLeft">&#160;</td><td class="mdescRight">If debug mode is activated?  <br /></td></tr>
 <tr class="separator:a3c551f32911dde44deb31caedf7d4004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab658f4b76b1a48ba3888eb2805e5c473"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#ab658f4b76b1a48ba3888eb2805e5c473">SHOULD_COLLIDE</a> = true</td></tr>
+<tr class="memdesc:ab658f4b76b1a48ba3888eb2805e5c473"><td class="mdescLeft">&#160;</td><td class="mdescRight">Should the player collide with the world / other GameObjects.  <br /></td></tr>
+<tr class="separator:ab658f4b76b1a48ba3888eb2805e5c473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3fe5bdec67b95cbea7d7aaf99753dd4"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_debug.html#ad3fe5bdec67b95cbea7d7aaf99753dd4">GOD_MODE</a> = false</td></tr>
+<tr class="memdesc:ad3fe5bdec67b95cbea7d7aaf99753dd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can the player take damage?  <br /></td></tr>
+<tr class="separator:ad3fe5bdec67b95cbea7d7aaf99753dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class filled with Debug tools. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a01d9ed6711d4aec0f001dc85daa04119" name="a01d9ed6711d4aec0f001dc85daa04119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01d9ed6711d4aec0f001dc85daa04119">&#9670;&#160;</a></span>AddConsoleCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.AddConsoleCommand </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>command</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>details</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Action&lt; string[]&gt;&#160;</td>
+          <td class="paramname"><em>action</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds a ConsoleCommand. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">command</td><td>The command.</td></tr>
+    <tr><td class="paramname">details</td><td>Info for "?" or "help".</td></tr>
+    <tr><td class="paramname">action</td><td>The action that the command runs.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a653d1cce4634791b577555f13527cb72" name="a653d1cce4634791b577555f13527cb72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a653d1cce4634791b577555f13527cb72">&#9670;&#160;</a></span>ChangeScene()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.ChangeScene </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Changes the current Scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a99ddad0036996cfff3b1343dba3414cd" name="a99ddad0036996cfff3b1343dba3414cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ddad0036996cfff3b1343dba3414cd">&#9670;&#160;</a></span>GetEventValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.GetEventValue </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the value of an Event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a516af4d35f4b791483a802471864c41f" name="a516af4d35f4b791483a802471864c41f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a516af4d35f4b791483a802471864c41f">&#9670;&#160;</a></span>ListEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.ListEvents </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lists every Event within the EventHandler </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a35d0de08323171455ad8b6b4ba1edd57" name="a35d0de08323171455ad8b6b4ba1edd57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35d0de08323171455ad8b6b4ba1edd57">&#9670;&#160;</a></span>ListScenes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.ListScenes </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Lists every Scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ad54dd2e54ec1c29dc3aac320cce5c922" name="ad54dd2e54ec1c29dc3aac320cce5c922"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad54dd2e54ec1c29dc3aac320cce5c922">&#9670;&#160;</a></span>Log()</h2>
 
@@ -282,6 +500,108 @@ Static Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad48c0e0ecae6be682557e6320cd005db" name="ad48c0e0ecae6be682557e6320cd005db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad48c0e0ecae6be682557e6320cd005db">&#9670;&#160;</a></span>PrintHelpCommand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.PrintHelpCommand </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prints a help screen to the console. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a881c2af2b60c6f9a0afcbb4110ef4075" name="a881c2af2b60c6f9a0afcbb4110ef4075"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a881c2af2b60c6f9a0afcbb4110ef4075">&#9670;&#160;</a></span>SetEventValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.SetEventValue </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the value of an Event. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae9db9dd184485d01eca018490129c66c" name="ae9db9dd184485d01eca018490129c66c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9db9dd184485d01eca018490129c66c">&#9670;&#160;</a></span>TriggerEventViaConsole()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.Debug.TriggerEventViaConsole </td>
+          <td>(</td>
+          <td class="paramtype">string[]&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Triggers an event via the console. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a3c551f32911dde44deb31caedf7d4004" name="a3c551f32911dde44deb31caedf7d4004"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3c551f32911dde44deb31caedf7d4004">&#9670;&#160;</a></span>DEBUG_MODE</h2>
@@ -304,6 +624,54 @@ Static Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If debug mode is activated? </p>
+
+</div>
+</div>
+<a id="ad3fe5bdec67b95cbea7d7aaf99753dd4" name="ad3fe5bdec67b95cbea7d7aaf99753dd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3fe5bdec67b95cbea7d7aaf99753dd4">&#9670;&#160;</a></span>GOD_MODE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Keg2D.Utils.Debug.GOD_MODE = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Can the player take damage? </p>
+
+</div>
+</div>
+<a id="ab658f4b76b1a48ba3888eb2805e5c473" name="ab658f4b76b1a48ba3888eb2805e5c473"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab658f4b76b1a48ba3888eb2805e5c473">&#9670;&#160;</a></span>SHOULD_COLLIDE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Keg2D.Utils.Debug.SHOULD_COLLIDE = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Should the player collide with the world / other GameObjects. </p>
 
 </div>
 </div>

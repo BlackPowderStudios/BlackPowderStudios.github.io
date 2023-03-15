@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.8</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -76,6 +76,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="class_keg2_d_1_1_collider-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">Keg2D.Collider Class Reference</div></div>
@@ -99,9 +100,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab706d25103f007065f9225a5dc3cee3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#ab706d25103f007065f9225a5dc3cee3e">Collider</a> (int x, int y, int w, int h, int <a class="el" href="class_keg2_d_1_1_collider.html#a58195914d80c1a8799858d0ce0ded970">xOffset</a>, int <a class="el" href="class_keg2_d_1_1_collider.html#a132f5ec21308ffd47cf8a2527905045f">yOffset</a>)</td></tr>
 <tr class="memdesc:ab706d25103f007065f9225a5dc3cee3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new Collider.  <br /></td></tr>
 <tr class="separator:ab706d25103f007065f9225a5dc3cee3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d30be0d9cc7f090a10e08eb704b5344"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#a5d30be0d9cc7f090a10e08eb704b5344">CheckCollision</a> (Vector2 velocity, <a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html">Scene</a> scene)</td></tr>
-<tr class="memdesc:a5d30be0d9cc7f090a10e08eb704b5344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if this Collider will collide with another Collider using a Vector2 to see the future velocity.  <br /></td></tr>
-<tr class="separator:a5d30be0d9cc7f090a10e08eb704b5344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ae080166589d11f371eff814b0900de"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#a5ae080166589d11f371eff814b0900de">CheckCollision</a> (Vector2 velocity)</td></tr>
+<tr class="memdesc:a5ae080166589d11f371eff814b0900de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks to see if this Collider will collide with another Collider using a Vector2 to see the future velocity.  <br /></td></tr>
+<tr class="separator:a5ae080166589d11f371eff814b0900de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5684631ab352d5ffee6e9bbb82788be7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#a5684631ab352d5ffee6e9bbb82788be7">gameObject</a> = null</td></tr>
+<tr class="memdesc:a5684631ab352d5ffee6e9bbb82788be7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GameObject that this Collider may be attached to.  <br /></td></tr>
+<tr class="separator:a5684631ab352d5ffee6e9bbb82788be7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a167f0731fca3bf1830485bd1d29302b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#a167f0731fca3bf1830485bd1d29302b0">IsTrigger</a> = false</td></tr>
+<tr class="memdesc:a167f0731fca3bf1830485bd1d29302b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether or not this Collider is a trigger.  <br /></td></tr>
+<tr class="separator:a167f0731fca3bf1830485bd1d29302b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4aa5619dd4b9144397bc959f5f13cbc5"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#a4aa5619dd4b9144397bc959f5f13cbc5">OnTrigger</a> = null</td></tr>
+<tr class="memdesc:a4aa5619dd4b9144397bc959f5f13cbc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this collider enters a trigger.  <br /></td></tr>
+<tr class="separator:a4aa5619dd4b9144397bc959f5f13cbc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518dcdc6b6692527a821d804a85b3344"><td class="memItemLeft" align="right" valign="top">Action&lt; <a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_collider.html#a518dcdc6b6692527a821d804a85b3344">OnCollision</a> = null</td></tr>
+<tr class="memdesc:a518dcdc6b6692527a821d804a85b3344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when this collider collides.  <br /></td></tr>
+<tr class="separator:a518dcdc6b6692527a821d804a85b3344"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
@@ -196,8 +212,8 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5d30be0d9cc7f090a10e08eb704b5344" name="a5d30be0d9cc7f090a10e08eb704b5344"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d30be0d9cc7f090a10e08eb704b5344">&#9670;&#160;</a></span>CheckCollision()</h2>
+<a id="a5ae080166589d11f371eff814b0900de" name="a5ae080166589d11f371eff814b0900de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ae080166589d11f371eff814b0900de">&#9670;&#160;</a></span>CheckCollision()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -206,18 +222,8 @@ Properties</h2></td></tr>
           <td class="memname">Vector2 Keg2D.Collider.CheckCollision </td>
           <td>(</td>
           <td class="paramtype">Vector2&#160;</td>
-          <td class="paramname"><em>velocity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>velocity</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html">Scene</a>&#160;</td>
-          <td class="paramname"><em>scene</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -230,7 +236,71 @@ Properties</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A modified version of the <em>velocity</em> .</dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5684631ab352d5ffee6e9bbb82788be7" name="a5684631ab352d5ffee6e9bbb82788be7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5684631ab352d5ffee6e9bbb82788be7">&#9670;&#160;</a></span>gameObject</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a> Keg2D.Collider.gameObject = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The GameObject that this Collider may be attached to. </p>
+
+</div>
+</div>
+<a id="a167f0731fca3bf1830485bd1d29302b0" name="a167f0731fca3bf1830485bd1d29302b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a167f0731fca3bf1830485bd1d29302b0">&#9670;&#160;</a></span>IsTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Keg2D.Collider.IsTrigger = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether or not this Collider is a trigger. </p>
+
+</div>
+</div>
+<a id="a518dcdc6b6692527a821d804a85b3344" name="a518dcdc6b6692527a821d804a85b3344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a518dcdc6b6692527a821d804a85b3344">&#9670;&#160;</a></span>OnCollision</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&gt; Keg2D.Collider.OnCollision = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when this collider collides. </p>
+
+</div>
+</div>
+<a id="a4aa5619dd4b9144397bc959f5f13cbc5" name="a4aa5619dd4b9144397bc959f5f13cbc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4aa5619dd4b9144397bc959f5f13cbc5">&#9670;&#160;</a></span>OnTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Action&lt;<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&gt; Keg2D.Collider.OnTrigger = null</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when this collider enters a trigger. </p>
 
 </div>
 </div>

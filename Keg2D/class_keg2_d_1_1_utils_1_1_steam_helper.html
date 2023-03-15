@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.8</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -87,9 +87,22 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a3a1e28f8a9a26b7c586dd000ddeb6bda"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a3a1e28f8a9a26b7c586dd000ddeb6bda">IsDLCInstalled</a> (int appID)</td></tr>
+<tr class="memdesc:a3a1e28f8a9a26b7c586dd000ddeb6bda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a certain DLC is installed.  <br /></td></tr>
+<tr class="separator:a3a1e28f8a9a26b7c586dd000ddeb6bda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf91fdd59394ae756009708d846b93b"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#adbf91fdd59394ae756009708d846b93b">OwnsAppID</a> (int appID)</td></tr>
+<tr class="separator:adbf91fdd59394ae756009708d846b93b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee300639a5cd38e74f0476c0a72ebc17"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#aee300639a5cd38e74f0476c0a72ebc17">Init</a> (uint gameID)</td></tr>
 <tr class="memdesc:aee300639a5cd38e74f0476c0a72ebc17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initalizes the SteamAPI. Must be done in the EntryPoint init method.  <br /></td></tr>
 <tr class="separator:aee300639a5cd38e74f0476c0a72ebc17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1ff8a45794a4b101177156cbe7e053f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#aa1ff8a45794a4b101177156cbe7e053f">SaveData</a> (string path, byte[] data)</td></tr>
+<tr class="separator:aa1ff8a45794a4b101177156cbe7e053f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a8275582216edf42f99ecf000f014ee"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a2a8275582216edf42f99ecf000f014ee">DeleteData</a> (string path)</td></tr>
+<tr class="separator:a2a8275582216edf42f99ecf000f014ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17f4a2a4186ea69125e68ace6e3b4df9"><td class="memItemLeft" align="right" valign="top">static string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a17f4a2a4186ea69125e68ace6e3b4df9">ListData</a> ()</td></tr>
+<tr class="separator:a17f4a2a4186ea69125e68ace6e3b4df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71af8f21700890833107fb3d5b384e72"><td class="memItemLeft" align="right" valign="top">static byte[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a71af8f21700890833107fb3d5b384e72">LoadData</a> (string path)</td></tr>
+<tr class="separator:a71af8f21700890833107fb3d5b384e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72288f9fddad42a69a28159665e00906"><td class="memItemLeft" align="right" valign="top">static Achievement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a72288f9fddad42a69a28159665e00906">GetAchievement</a> (string achievementID)</td></tr>
 <tr class="memdesc:a72288f9fddad42a69a28159665e00906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the data for an Achievement.  <br /></td></tr>
 <tr class="separator:a72288f9fddad42a69a28159665e00906"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -102,6 +115,11 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
+<tr class="memitem:a026055ae7d4cca0c4f0eaf9749a7ee18"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a026055ae7d4cca0c4f0eaf9749a7ee18">IsInitialized</a><code> [get]</code></td></tr>
+<tr class="memdesc:a026055ae7d4cca0c4f0eaf9749a7ee18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Has the SteamClient been initalized.  <br /></td></tr>
+<tr class="separator:a026055ae7d4cca0c4f0eaf9749a7ee18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4693c95ec0281cd99b6e292c7ef91936"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a4693c95ec0281cd99b6e292c7ef91936">UseCloudStorage</a><code> [get]</code></td></tr>
+<tr class="separator:a4693c95ec0281cd99b6e292c7ef91936"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a739de537c46c4688c187bf4760262041"><td class="memItemLeft" align="right" valign="top">static Texture2D&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_utils_1_1_steam_helper.html#a739de537c46c4688c187bf4760262041">SteamProfilePicture</a><code> [get]</code></td></tr>
 <tr class="memdesc:a739de537c46c4688c187bf4760262041"><td class="mdescLeft">&#160;</td><td class="mdescRight">The profile picture of the player.  <br /></td></tr>
 <tr class="separator:a739de537c46c4688c187bf4760262041"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -109,6 +127,32 @@ Properties</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A helper file to help with Steam interaction. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a2a8275582216edf42f99ecf000f014ee" name="a2a8275582216edf42f99ecf000f014ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a8275582216edf42f99ecf000f014ee">&#9670;&#160;</a></span>DeleteData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.SteamHelper.DeleteData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a72288f9fddad42a69a28159665e00906" name="a72288f9fddad42a69a28159665e00906"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72288f9fddad42a69a28159665e00906">&#9670;&#160;</a></span>GetAchievement()</h2>
 
@@ -206,6 +250,154 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a3a1e28f8a9a26b7c586dd000ddeb6bda" name="a3a1e28f8a9a26b7c586dd000ddeb6bda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a1e28f8a9a26b7c586dd000ddeb6bda">&#9670;&#160;</a></span>IsDLCInstalled()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Keg2D.Utils.SteamHelper.IsDLCInstalled </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>appID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if a certain DLC is installed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">appID</td><td>The AppID of the DLC.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the user has the DLC installed.</dd></dl>
+
+</div>
+</div>
+<a id="a17f4a2a4186ea69125e68ace6e3b4df9" name="a17f4a2a4186ea69125e68ace6e3b4df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17f4a2a4186ea69125e68ace6e3b4df9">&#9670;&#160;</a></span>ListData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static string[] Keg2D.Utils.SteamHelper.ListData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a71af8f21700890833107fb3d5b384e72" name="a71af8f21700890833107fb3d5b384e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71af8f21700890833107fb3d5b384e72">&#9670;&#160;</a></span>LoadData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static byte[] Keg2D.Utils.SteamHelper.LoadData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adbf91fdd59394ae756009708d846b93b" name="adbf91fdd59394ae756009708d846b93b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf91fdd59394ae756009708d846b93b">&#9670;&#160;</a></span>OwnsAppID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool Keg2D.Utils.SteamHelper.OwnsAppID </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>appID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa1ff8a45794a4b101177156cbe7e053f" name="aa1ff8a45794a4b101177156cbe7e053f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1ff8a45794a4b101177156cbe7e053f">&#9670;&#160;</a></span>SaveData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Keg2D.Utils.SteamHelper.SaveData </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">byte[]&#160;</td>
+          <td class="paramname"><em>data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aae05d2657acc2fbab441098dc6ee4c7b" name="aae05d2657acc2fbab441098dc6ee4c7b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aae05d2657acc2fbab441098dc6ee4c7b">&#9670;&#160;</a></span>Shutdown()</h2>
 
@@ -234,6 +426,30 @@ Properties</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Property Documentation</h2>
+<a id="a026055ae7d4cca0c4f0eaf9749a7ee18" name="a026055ae7d4cca0c4f0eaf9749a7ee18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a026055ae7d4cca0c4f0eaf9749a7ee18">&#9670;&#160;</a></span>IsInitialized</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Keg2D.Utils.SteamHelper.IsInitialized</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Has the SteamClient been initalized. </p>
+
+</div>
+</div>
 <a id="a739de537c46c4688c187bf4760262041" name="a739de537c46c4688c187bf4760262041"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a739de537c46c4688c187bf4760262041">&#9670;&#160;</a></span>SteamProfilePicture</h2>
 
@@ -255,6 +471,28 @@ Properties</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The profile picture of the player. </p>
+
+</div>
+</div>
+<a id="a4693c95ec0281cd99b6e292c7ef91936" name="a4693c95ec0281cd99b6e292c7ef91936"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4693c95ec0281cd99b6e292c7ef91936">&#9670;&#160;</a></span>UseCloudStorage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Keg2D.Utils.SteamHelper.UseCloudStorage</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.8</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -111,12 +111,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aac106a2b5e4c60468965fc0841041b8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_game_object.html#aac106a2b5e4c60468965fc0841041b8e">Render</a> (GameTime gameTime)</td></tr>
 <tr class="memdesc:aac106a2b5e4c60468965fc0841041b8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every frame <em>(Around 60 times a second)</em>.  <br /></td></tr>
 <tr class="separator:aac106a2b5e4c60468965fc0841041b8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a974e539d20122d6940ffbeb5965dc361"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_game_object.html#a974e539d20122d6940ffbeb5965dc361">OnCollision</a> (<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> collider)</td></tr>
+<tr class="memdesc:a974e539d20122d6940ffbeb5965dc361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the GameObject hits a Collider.  <br /></td></tr>
+<tr class="separator:a974e539d20122d6940ffbeb5965dc361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4abb017dfabbf5bd77325a482d87151b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_game_object.html#a4abb017dfabbf5bd77325a482d87151b">OnTrigger</a> (<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> collider)</td></tr>
+<tr class="memdesc:a4abb017dfabbf5bd77325a482d87151b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the GameObject hits a Collider that is a trigger.  <br /></td></tr>
+<tr class="separator:a4abb017dfabbf5bd77325a482d87151b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a51bca81c263372c42348fcb67a48cd44"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_game_object.html#a51bca81c263372c42348fcb67a48cd44">UUID</a></td></tr>
 <tr class="memdesc:a51bca81c263372c42348fcb67a48cd44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <b>UUID</b> (<b><u>U</u></b>niversal <b><u>U</u></b>nique <b><u>ID</u></b>entifier) of the GameObject <em>(Generated after it is created)</em>.  <br /></td></tr>
 <tr class="separator:a51bca81c263372c42348fcb67a48cd44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af238443befd8effa2963ba9bda7912d0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_game_object.html#af238443befd8effa2963ba9bda7912d0">tag</a> = &quot;Untagged&quot;</td></tr>
+<tr class="memdesc:af238443befd8effa2963ba9bda7912d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The tag of the GameObject.  <br /></td></tr>
+<tr class="separator:af238443befd8effa2963ba9bda7912d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a763dd182d38dd5a44714978c55f108cb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_game_object.html#a763dd182d38dd5a44714978c55f108cb">enabled</a> = true</td></tr>
 <tr class="memdesc:a763dd182d38dd5a44714978c55f108cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determins if this GameObject should be ticked / rendered.  <br /></td></tr>
 <tr class="separator:a763dd182d38dd5a44714978c55f108cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,6 +259,58 @@ type to get.</td></tr>
 
 </div>
 </div>
+<a id="a974e539d20122d6940ffbeb5965dc361" name="a974e539d20122d6940ffbeb5965dc361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a974e539d20122d6940ffbeb5965dc361">&#9670;&#160;</a></span>OnCollision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.GameObject.OnCollision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&#160;</td>
+          <td class="paramname"><em>collider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the GameObject hits a Collider. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td>The Collider.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4abb017dfabbf5bd77325a482d87151b" name="a4abb017dfabbf5bd77325a482d87151b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4abb017dfabbf5bd77325a482d87151b">&#9670;&#160;</a></span>OnTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.GameObject.OnTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&#160;</td>
+          <td class="paramname"><em>collider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the GameObject hits a Collider that is a trigger. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td>The Collider.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a18ede2f9c58d6931286240235666df7c" name="a18ede2f9c58d6931286240235666df7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a18ede2f9c58d6931286240235666df7c">&#9670;&#160;</a></span>RemoveComponent()</h2>
 
@@ -361,6 +422,22 @@ type to get.</td></tr>
 </div><div class="memdoc">
 
 <p>Determins if this GameObject should be ticked / rendered. </p>
+
+</div>
+</div>
+<a id="af238443befd8effa2963ba9bda7912d0" name="af238443befd8effa2963ba9bda7912d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af238443befd8effa2963ba9bda7912d0">&#9670;&#160;</a></span>tag</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Keg2D.GameObject.tag = &quot;Untagged&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The tag of the GameObject. </p>
 
 </div>
 </div>

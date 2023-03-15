@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.8</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -93,7 +93,8 @@ Inheritance diagram for Keg2D.Component:</div>
   <map id="Keg2D.Component_map" name="Keg2D.Component_map">
 <area href="class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html" title="Renders an AnimatedSprite at the Transform.position." alt="Keg2D.Components.AnimatedSpriteRenderer" shape="rect" coords="0,56,265,80"/>
 <area href="class_keg2_d_1_1_components_1_1_box_collider2_d.html" title="Holds physics data for a GameObject." alt="Keg2D.Components.BoxCollider2D" shape="rect" coords="275,56,540,80"/>
-<area href="class_keg2_d_1_1_components_1_1_sprite_renderer.html" title="Renders a Sprite at the Transform.position." alt="Keg2D.Components.SpriteRenderer" shape="rect" coords="550,56,815,80"/>
+<area href="class_keg2_d_1_1_components_1_1_particle_emitter.html" title="A ParticleEmitter within Keg2D." alt="Keg2D.Components.ParticleEmitter" shape="rect" coords="550,56,815,80"/>
+<area href="class_keg2_d_1_1_components_1_1_sprite_renderer.html" title="Renders a Sprite at the Transform.position." alt="Keg2D.Components.SpriteRenderer" shape="rect" coords="825,56,1090,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
@@ -105,6 +106,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7534e984ba24a2f6fd3842dc6355101"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#aa7534e984ba24a2f6fd3842dc6355101">Start</a> ()</td></tr>
 <tr class="memdesc:aa7534e984ba24a2f6fd3842dc6355101"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the GameObject is SceneManagement.Scene.Instantiate.  <br /></td></tr>
 <tr class="separator:aa7534e984ba24a2f6fd3842dc6355101"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36fcc1c361993dfa54b6591c0ecea870"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a36fcc1c361993dfa54b6591c0ecea870">OnCollision</a> (<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> collider)</td></tr>
+<tr class="memdesc:a36fcc1c361993dfa54b6591c0ecea870"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a Collider hits this GameObject Collider.  <br /></td></tr>
+<tr class="separator:a36fcc1c361993dfa54b6591c0ecea870"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e7006b3a29e08456eedaef14f57fda"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a89e7006b3a29e08456eedaef14f57fda">OnTrigger</a> (<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> collider)</td></tr>
+<tr class="memdesc:a89e7006b3a29e08456eedaef14f57fda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a Collider (that is marked as a trigger) hits this GameObject Collider.  <br /></td></tr>
+<tr class="separator:a89e7006b3a29e08456eedaef14f57fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f37d3fa522a9cfecb00b12bc4de501"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#aa6f37d3fa522a9cfecb00b12bc4de501">Tick</a> (GameTime gameTime)</td></tr>
 <tr class="memdesc:aa6f37d3fa522a9cfecb00b12bc4de501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every update <em>(Around 60 times a second)</em>.  <br /></td></tr>
 <tr class="separator:aa6f37d3fa522a9cfecb00b12bc4de501"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,6 +127,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a01966b7d1c9db56417a5c889980cee06"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a01966b7d1c9db56417a5c889980cee06">enabled</a> = true</td></tr>
 <tr class="memdesc:a01966b7d1c9db56417a5c889980cee06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determins if this Component should be ticked / rendered.  <br /></td></tr>
 <tr class="separator:a01966b7d1c9db56417a5c889980cee06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1daf4358377a0c886799b1cdeda16ed9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a1daf4358377a0c886799b1cdeda16ed9">AffectedByCollisionsOrTrigger</a> = true</td></tr>
+<tr class="memdesc:a1daf4358377a0c886799b1cdeda16ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false then this Component will not run OnCollision(Collider) and / or OnTrigger(Collider).  <br /></td></tr>
+<tr class="separator:a1daf4358377a0c886799b1cdeda16ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bf2eec6293ea0f9923a95902f6610c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a19bf2eec6293ea0f9923a95902f6610c">gameObject</a></td></tr>
 <tr class="memdesc:a19bf2eec6293ea0f9923a95902f6610c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GameObject that the script is connected to.  <br /></td></tr>
 <tr class="separator:a19bf2eec6293ea0f9923a95902f6610c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,6 +170,74 @@ Properties</h2></td></tr>
 
 </div>
 </div>
+<a id="a36fcc1c361993dfa54b6591c0ecea870" name="a36fcc1c361993dfa54b6591c0ecea870"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36fcc1c361993dfa54b6591c0ecea870">&#9670;&#160;</a></span>OnCollision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Keg2D.Component.OnCollision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&#160;</td>
+          <td class="paramname"><em>collider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a Collider hits this GameObject Collider. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a89e7006b3a29e08456eedaef14f57fda" name="a89e7006b3a29e08456eedaef14f57fda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e7006b3a29e08456eedaef14f57fda">&#9670;&#160;</a></span>OnTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Keg2D.Component.OnTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_collider.html">Collider</a>&#160;</td>
+          <td class="paramname"><em>collider</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when a Collider (that is marked as a trigger) hits this GameObject Collider. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">collider</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a6b86ad123f0f83a1818a2d6ea8dc65ef" name="a6b86ad123f0f83a1818a2d6ea8dc65ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6b86ad123f0f83a1818a2d6ea8dc65ef">&#9670;&#160;</a></span>Render()</h2>
 
@@ -192,7 +270,7 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#a8a6fe65a763ae7a59c53f58c13a05f3c">Keg2D.Components.AnimatedSpriteRenderer</a>, and <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#aae932952371494eadf7cccaa0520f8eb">Keg2D.Components.SpriteRenderer</a>.</p>
+<p>Reimplemented in <a class="el" href="class_keg2_d_1_1_components_1_1_animated_sprite_renderer.html#a8a6fe65a763ae7a59c53f58c13a05f3c">Keg2D.Components.AnimatedSpriteRenderer</a>, <a class="el" href="class_keg2_d_1_1_components_1_1_particle_emitter.html#a9bfba7a1296ef5c8a6254c62290c6fda">Keg2D.Components.ParticleEmitter</a>, and <a class="el" href="class_keg2_d_1_1_components_1_1_sprite_renderer.html#aae932952371494eadf7cccaa0520f8eb">Keg2D.Components.SpriteRenderer</a>.</p>
 
 </div>
 </div>
@@ -255,11 +333,27 @@ Properties</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="class_keg2_d_1_1_components_1_1_box_collider2_d.html#a76cf52ecb493b41db1fed7860580004c">Keg2D.Components.BoxCollider2D</a>.</p>
+<p>Reimplemented in <a class="el" href="class_keg2_d_1_1_components_1_1_box_collider2_d.html#a76cf52ecb493b41db1fed7860580004c">Keg2D.Components.BoxCollider2D</a>, and <a class="el" href="class_keg2_d_1_1_components_1_1_particle_emitter.html#a1d78ea349a81542eda5dd09e3595c36d">Keg2D.Components.ParticleEmitter</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a1daf4358377a0c886799b1cdeda16ed9" name="a1daf4358377a0c886799b1cdeda16ed9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1daf4358377a0c886799b1cdeda16ed9">&#9670;&#160;</a></span>AffectedByCollisionsOrTrigger</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Keg2D.Component.AffectedByCollisionsOrTrigger = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If false then this Component will not run OnCollision(Collider) and / or OnTrigger(Collider). </p>
+
+</div>
+</div>
 <a id="a01966b7d1c9db56417a5c889980cee06" name="a01966b7d1c9db56417a5c889980cee06"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01966b7d1c9db56417a5c889980cee06">&#9670;&#160;</a></span>enabled</h2>
 

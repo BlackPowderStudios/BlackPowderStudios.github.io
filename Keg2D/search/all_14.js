@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['x_0',['X',['../class_keg2_d_1_1_graphics_1_1_sprite.html#a0366534afc5bc1806a34bc135809ae54',1,'Keg2D.Graphics.Sprite.X()'],['../class_keg2_d_1_1_graphics_1_1_tile.html#a4637d2ee0b8942b991212a79f7cbee6e',1,'Keg2D.Graphics.Tile.X()']]],
-  ['xoffset_1',['xOffset',['../class_keg2_d_1_1_collider.html#a58195914d80c1a8799858d0ce0ded970',1,'Keg2D::Collider']]],
-  ['xpositon_2',['xPositon',['../class_keg2_d_1_1_collider.html#a51ee6160d5b258a2e49ea89583c2c264',1,'Keg2D::Collider']]]
+  ['waskeypressed_0',['WasKeyPressed',['../class_keg2_d_1_1_input.html#acc26cab09e46b44bf869a26eaab50109',1,'Keg2D::Input']]],
+  ['width_1',['Width',['../class_keg2_d_1_1_collider.html#a685dff9f3ac0d9b88886cea47b0f6d04',1,'Keg2D.Collider.Width()'],['../class_keg2_d_1_1_graphics_1_1_sprite.html#afcca82e28edfef509fb3be6ad0340578',1,'Keg2D.Graphics.Sprite.Width()'],['../class_keg2_d_1_1_graphics_1_1_tile.html#ae7659f35ccebd44232d39541f73be9fa',1,'Keg2D.Graphics.Tile.Width()'],['../class_keg2_d_1_1_graphics_1_1_tileset.html#ae30481d04f4889dda925e83ddd1eba07',1,'Keg2D.Graphics.Tileset.Width()']]]
 ];

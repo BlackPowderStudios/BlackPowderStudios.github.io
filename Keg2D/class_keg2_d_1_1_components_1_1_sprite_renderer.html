@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.8.8</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -112,6 +112,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa7534e984ba24a2f6fd3842dc6355101 inherit pub_methods_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#aa7534e984ba24a2f6fd3842dc6355101">Start</a> ()</td></tr>
 <tr class="memdesc:aa7534e984ba24a2f6fd3842dc6355101 inherit pub_methods_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the GameObject is SceneManagement.Scene.Instantiate.  <br /></td></tr>
 <tr class="separator:aa7534e984ba24a2f6fd3842dc6355101 inherit pub_methods_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36fcc1c361993dfa54b6591c0ecea870 inherit pub_methods_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a36fcc1c361993dfa54b6591c0ecea870">OnCollision</a> (<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> collider)</td></tr>
+<tr class="memdesc:a36fcc1c361993dfa54b6591c0ecea870 inherit pub_methods_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a Collider hits this GameObject Collider.  <br /></td></tr>
+<tr class="separator:a36fcc1c361993dfa54b6591c0ecea870 inherit pub_methods_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89e7006b3a29e08456eedaef14f57fda inherit pub_methods_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a89e7006b3a29e08456eedaef14f57fda">OnTrigger</a> (<a class="el" href="class_keg2_d_1_1_collider.html">Collider</a> collider)</td></tr>
+<tr class="memdesc:a89e7006b3a29e08456eedaef14f57fda inherit pub_methods_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a Collider (that is marked as a trigger) hits this GameObject Collider.  <br /></td></tr>
+<tr class="separator:a89e7006b3a29e08456eedaef14f57fda inherit pub_methods_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f37d3fa522a9cfecb00b12bc4de501 inherit pub_methods_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#aa6f37d3fa522a9cfecb00b12bc4de501">Tick</a> (GameTime gameTime)</td></tr>
 <tr class="memdesc:aa6f37d3fa522a9cfecb00b12bc4de501 inherit pub_methods_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called every update <em>(Around 60 times a second)</em>.  <br /></td></tr>
 <tr class="separator:aa6f37d3fa522a9cfecb00b12bc4de501 inherit pub_methods_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -137,6 +143,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a01966b7d1c9db56417a5c889980cee06 inherit pub_attribs_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a01966b7d1c9db56417a5c889980cee06">enabled</a> = true</td></tr>
 <tr class="memdesc:a01966b7d1c9db56417a5c889980cee06 inherit pub_attribs_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determins if this Component should be ticked / rendered.  <br /></td></tr>
 <tr class="separator:a01966b7d1c9db56417a5c889980cee06 inherit pub_attribs_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1daf4358377a0c886799b1cdeda16ed9 inherit pub_attribs_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a1daf4358377a0c886799b1cdeda16ed9">AffectedByCollisionsOrTrigger</a> = true</td></tr>
+<tr class="memdesc:a1daf4358377a0c886799b1cdeda16ed9 inherit pub_attribs_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">If false then this Component will not run OnCollision(Collider) and / or OnTrigger(Collider).  <br /></td></tr>
+<tr class="separator:a1daf4358377a0c886799b1cdeda16ed9 inherit pub_attribs_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19bf2eec6293ea0f9923a95902f6610c inherit pub_attribs_class_keg2_d_1_1_component"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_component.html#a19bf2eec6293ea0f9923a95902f6610c">gameObject</a></td></tr>
 <tr class="memdesc:a19bf2eec6293ea0f9923a95902f6610c inherit pub_attribs_class_keg2_d_1_1_component"><td class="mdescLeft">&#160;</td><td class="mdescRight">The GameObject that the script is connected to.  <br /></td></tr>
 <tr class="separator:a19bf2eec6293ea0f9923a95902f6610c inherit pub_attribs_class_keg2_d_1_1_component"><td class="memSeparator" colspan="2">&#160;</td></tr>

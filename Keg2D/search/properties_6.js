@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ischecked_0',['IsChecked',['../class_keg2_d_1_1_graphics_1_1_u_i_1_1_u_i_check_box.html#a52e3cb08a26e36c74b6db81808082a7a',1,'Keg2D::Graphics::UI::UICheckBox']]]
+  ['graphics_5fdevice_5fmanager_0',['GRAPHICS_DEVICE_MANAGER',['../class_keg2_d_1_1_engine_globals.html#a8cc5bbfe0cda36e773b4a9eb09fe4e61',1,'Keg2D::EngineGlobals']]]
 ];
