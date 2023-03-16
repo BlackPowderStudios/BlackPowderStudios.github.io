@@ -21,7 +21,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">Keg2D<span id="projectnumber">&#160;0.9.0</span>
+   <div id="projectname">Keg2D<span id="projectnumber">&#160;Version 0.9.0_1.6</span>
    </div>
    <div id="projectbrief">Keg2D is a 2D game engine created using the MonoGame / XNA framework.</div>
   </td>
@@ -89,11 +89,12 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a07ae61e7d5c89d9091bcbea7d5d5be49"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a07ae61e7d5c89d9091bcbea7d5d5be49">Init</a> ()</td></tr>
 <tr class="separator:a07ae61e7d5c89d9091bcbea7d5d5be49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dacc74868528d0f336df8c76a913d5c"><td class="memItemLeft" align="right" valign="top">Guid&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a7dacc74868528d0f336df8c76a913d5c">Instantiate&lt; T &gt;</a> ()</td></tr>
-<tr class="memdesc:a7dacc74868528d0f336df8c76a913d5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a GameObject <em>(of type T)</em> to the Scene.  <br /></td></tr>
-<tr class="separator:a7dacc74868528d0f336df8c76a913d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a051e5e31d3f10a7aa7b8ddb51a33c6cf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a051e5e31d3f10a7aa7b8ddb51a33c6cf">AddGameObject</a> (string name, <a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a> gameObject)</td></tr>
+<tr class="separator:a051e5e31d3f10a7aa7b8ddb51a33c6cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7a5ae2621eaa7999548c4873db7fa1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#ae7a5ae2621eaa7999548c4873db7fa1c">GetGameObject</a> (string key)</td></tr>
+<tr class="memdesc:ae7a5ae2621eaa7999548c4873db7fa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the GameObject within the Scene with the GameObject.UUID specified.  <br /></td></tr>
+<tr class="separator:ae7a5ae2621eaa7999548c4873db7fa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb1d1540cab670355d7e0af096fba6d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#acb1d1540cab670355d7e0af096fba6d4">GetGameObject</a> (Guid UUID)</td></tr>
-<tr class="memdesc:acb1d1540cab670355d7e0af096fba6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the GameObject within the Scene with the GameObject.UUID specified.  <br /></td></tr>
 <tr class="separator:acb1d1540cab670355d7e0af096fba6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4401a2d63870256846ffe40081dd2766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a4401a2d63870256846ffe40081dd2766">FindGameObjectWithTag</a> (string tag)</td></tr>
 <tr class="memdesc:a4401a2d63870256846ffe40081dd2766"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds a GameObject with a specific tag.  <br /></td></tr>
@@ -113,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7069f1614205baff40c95bf2d76a93e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a7069f1614205baff40c95bf2d76a93e8">GetComponent&lt; T &gt;</a> ()</td></tr>
 <tr class="memdesc:a7069f1614205baff40c95bf2d76a93e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the first GameObject of type T.  <br /></td></tr>
 <tr class="separator:a7069f1614205baff40c95bf2d76a93e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57b0a8f07c885f75565e8d90459d59ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#a57b0a8f07c885f75565e8d90459d59ec">RemoveGameObject</a> (string key)</td></tr>
+<tr class="memdesc:a57b0a8f07c885f75565e8d90459d59ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a GameObject from the Scene.  <br /></td></tr>
+<tr class="separator:a57b0a8f07c885f75565e8d90459d59ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefb30076090842fd69112c1b7c399008"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_keg2_d_1_1_scene_management_1_1_scene.html#aefb30076090842fd69112c1b7c399008">RemoveGameObject</a> (Guid UUID)</td></tr>
 <tr class="memdesc:aefb30076090842fd69112c1b7c399008"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes a GameObject from the Scene.  <br /></td></tr>
 <tr class="separator:aefb30076090842fd69112c1b7c399008"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,6 +154,34 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A representation of in-game world space. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a051e5e31d3f10a7aa7b8ddb51a33c6cf" name="a051e5e31d3f10a7aa7b8ddb51a33c6cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a051e5e31d3f10a7aa7b8ddb51a33c6cf">&#9670;&#160;</a></span>AddGameObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.AddGameObject </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a>&#160;</td>
+          <td class="paramname"><em>gameObject</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1127784393ef10e0911abbb1673b2642" name="a1127784393ef10e0911abbb1673b2642"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1127784393ef10e0911abbb1673b2642">&#9670;&#160;</a></span>AddUI()</h2>
 
@@ -382,7 +414,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <a id="acb1d1540cab670355d7e0af096fba6d4" name="acb1d1540cab670355d7e0af096fba6d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb1d1540cab670355d7e0af096fba6d4">&#9670;&#160;</a></span>GetGameObject()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acb1d1540cab670355d7e0af096fba6d4">&#9670;&#160;</a></span>GetGameObject() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -397,10 +429,28 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="ae7a5ae2621eaa7999548c4873db7fa1c" name="ae7a5ae2621eaa7999548c4873db7fa1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7a5ae2621eaa7999548c4873db7fa1c">&#9670;&#160;</a></span>GetGameObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_keg2_d_1_1_game_object.html">GameObject</a> Keg2D.SceneManagement.Scene.GetGameObject </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Gets the GameObject within the Scene with the GameObject.UUID specified. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">UUID</td><td>The GameObject.UUID</td></tr>
+    <tr><td class="paramname">key</td><td>The GameObject.UUID</td></tr>
   </table>
   </dd>
 </dl>
@@ -460,42 +510,8 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7dacc74868528d0f336df8c76a913d5c" name="a7dacc74868528d0f336df8c76a913d5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dacc74868528d0f336df8c76a913d5c">&#9670;&#160;</a></span>Instantiate&lt; T &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Guid Keg2D.SceneManagement.Scene.Instantiate&lt; T &gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Adds a GameObject <em>(of type T)</em> to the Scene. </p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">T</td><td>The GameObject to add.</td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The <b>UUID</b> (<b><u>U</u></b>niversal <b><u>U</u></b>nique <b><u>ID</u></b>entifier) of the GameObject.</dd></dl>
-<div class="typeconstraint">
-<dl><dt><b>Type Constraints</b></dt><dd>
-<table border="0" cellspacing="2" cellpadding="0">
-<tr><td valign="top"><em>T</em></td><td>&#160;:</td><td valign="top"><em>GameObject</em></td><td>&#160;</td></tr>
-</table>
-</dd>
-</dl>
-</div>
-
-</div>
-</div>
 <a id="aefb30076090842fd69112c1b7c399008" name="aefb30076090842fd69112c1b7c399008"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefb30076090842fd69112c1b7c399008">&#9670;&#160;</a></span>RemoveGameObject()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aefb30076090842fd69112c1b7c399008">&#9670;&#160;</a></span>RemoveGameObject() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -514,6 +530,32 @@ Public Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">UUID</td><td>The <b>UUID</b> (<b><u>U</u></b>niversal <b><u>U</u></b>nique <b><u>ID</u></b>entifier) of the GameObject.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a57b0a8f07c885f75565e8d90459d59ec" name="a57b0a8f07c885f75565e8d90459d59ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57b0a8f07c885f75565e8d90459d59ec">&#9670;&#160;</a></span>RemoveGameObject() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Keg2D.SceneManagement.Scene.RemoveGameObject </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes a GameObject from the Scene. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The name of the GameObject.</td></tr>
   </table>
   </dd>
 </dl>

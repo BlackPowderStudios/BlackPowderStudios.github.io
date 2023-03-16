@@ -9,5 +9,5 @@ var searchData=
   ['timer_6',['Timer',['../class_keg2_d_1_1_utils_1_1_timer.html#a559bf3e7ffa88a50681e7dfb5b2a06e6',1,'Keg2D::Utils::Timer']]],
   ['trigger_7',['Trigger',['../class_keg2_d_1_1_events_1_1_event.html#a4d959dd8d78af511157159d0ff3e12fe',1,'Keg2D::Events::Event']]],
   ['triggerevent_8',['TriggerEvent',['../class_keg2_d_1_1_events_1_1_event_handler.html#ab0b082da2bb16d36681f1a3e0837e70d',1,'Keg2D::Events::EventHandler']]],
-  ['triggereventviaconsole_9',['TriggerEventViaConsole',['../class_keg2_d_1_1_utils_1_1_debug.html#ae9db9dd184485d01eca018490129c66c',1,'Keg2D::Utils::Debug']]]
+  ['triggereventviaconsole_9',['TriggerEventViaConsole',['../class_keg2_d_1_1_utils_1_1_console_command.html#a352a848894201f99c8326b3e4436d7d9',1,'Keg2D::Utils::ConsoleCommand']]]
 ];

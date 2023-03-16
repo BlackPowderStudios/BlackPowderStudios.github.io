@@ -19,5 +19,5 @@ var searchData=
   ['transform_16',['transform',['../class_keg2_d_1_1_component.html#a51ae788670dc673a73729f7bbe86aee4',1,'Keg2D.Component.transform()'],['../class_keg2_d_1_1_game_object.html#a28c6f36d95a099c32cc1e7e3d64ab841',1,'Keg2D.GameObject.transform()']]],
   ['trigger_17',['Trigger',['../class_keg2_d_1_1_events_1_1_event.html#a4d959dd8d78af511157159d0ff3e12fe',1,'Keg2D::Events::Event']]],
   ['triggerevent_18',['TriggerEvent',['../class_keg2_d_1_1_events_1_1_event_handler.html#ab0b082da2bb16d36681f1a3e0837e70d',1,'Keg2D::Events::EventHandler']]],
-  ['triggereventviaconsole_19',['TriggerEventViaConsole',['../class_keg2_d_1_1_utils_1_1_debug.html#ae9db9dd184485d01eca018490129c66c',1,'Keg2D::Utils::Debug']]]
+  ['triggereventviaconsole_19',['TriggerEventViaConsole',['../class_keg2_d_1_1_utils_1_1_console_command.html#a352a848894201f99c8326b3e4436d7d9',1,'Keg2D::Utils::ConsoleCommand']]]
 ];
