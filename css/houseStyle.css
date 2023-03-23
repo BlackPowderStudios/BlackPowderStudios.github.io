@@ -1,0 +1,25 @@
+nav {
+    text-align: center;
+    background-color: darkslategray;
+    padding-bottom: 15px;
+}
+
+.navLogo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.navButton {
+    text-decoration: none;
+    color: black;
+    background-color: lightslategray;
+    border: solid;
+    border-radius: 25%;
+    padding: 5px 10px 5px 10px;
+}
+
+.navButton:hover {
+    color: black;
+    background-color: white;
+}
